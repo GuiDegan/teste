@@ -71,6 +71,7 @@
 /*----------------------------SIDEBAR-----------------------*/
 .col-sm-1 {
     z-index: -1;
+    max-width: 6.5%;
 }
 
 .sidebar {
@@ -85,25 +86,25 @@
 }
 
 .paragrafo {
+    margin-right: -20%;
     text-align: right;
-    padding: 2rem 0rem 0rem 0rem;
-    line-height: 1.1;
-    font-size: 18px;
-    z-index: 1;
+    padding: 1rem 0rem 0rem 7rem;
+    line-height: 1.4;
+    font-size: 16px;
+    z-index: 4;
     font-family: MyriadPro;
     font-weight: 200;
     margin-bottom: 0;
 }
 
 .retangulo {
-    width: 4vw;
-    height: 55vh;
+    height: 60vh;
     background: blue;
     transform: rotate(180deg);
     border-radius: 60px;
     background-color: #00CDC2;
     z-index: -2;
-    margin-top: -8%;
+    margin-top: -10%;
     margin-left: -10%;
 }
 
@@ -154,11 +155,13 @@
 }
 
 .linhavertical {
-    height: 23vh;
-    border-right: 2px solid #ffffff;
+    height: 18vh;
+    margin-top: 2%;
+    border-right: 0.5px solid #ffffff;
     animation-duration: 5s;
     animation-name: slidelinhavertical;
     animation-iteration-count: linear;
+    margin-right: -19.5%;
 }
 
 @keyframes slidelinhavertical {
@@ -168,7 +171,7 @@
     }
 
     to {
-        margin-top: 0%;
+        margin-top: 2%;
         opacity: 1;
     }
 }
@@ -181,7 +184,6 @@
     position: absolute;
     left: 93%;
     bottom: 0px;
-    margin-top: 0;
     border-radius: 35px;
     color: #000000;
     border: none;
@@ -189,6 +191,7 @@
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.2rem;
+    margin-bottom: -11%;
 }
 
 .popover {
@@ -207,11 +210,11 @@
 }
 
 .tecnologia {
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 /*-----------------------------LIQUIDAÇÃO----------------------*/
 .liquidacao {
-    padding-top: 5rem
+    padding-top: 10rem
 }
 
 .titulo1_direita {
