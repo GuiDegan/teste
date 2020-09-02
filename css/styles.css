@@ -1,0 +1,297 @@
+@font-face {
+    font-family: MyriadPro;
+    font-weight: 100;
+    src: url(/_Fonts/_Texto_Corrido/MyriadPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: 200;
+    src: url(/_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: 300;
+    src: url(/_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf) format("opentype");
+}
+
+.conteudo {
+    background-color: #DADADA;
+    position: sticky;
+}
+
+.logo_lina {
+    min-width: 200px;
+    height: 11vh;
+    background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    height: 15vh;
+    background: linear-gradient(to right, #00908c 0%, #12403C 100%);
+    border-radius: 0px 0px 0px 40px;
+    position: fixed;
+    margin-left: -2vw;
+    z-index: 2;
+    min-width: 96vw;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+    padding-right: 2rem;
+}
+
+.nav-link {
+    display: inline-flex;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #00CDC2;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.btn_login {
+    width: 130px;
+    font-weight: 500;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    color: #00CDC2;
+    background: none;
+    border-color: #00CDC2;
+    margin-left: 10%;
+}
+
+/*----------------------------SIDEBAR-----------------------*/
+.col-sm-1 {
+    z-index: -1;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background-color: #00CDC2;
+    min-width: 5vw;
+}
+
+/*-----------------------SOMOS e TECNOLOGIA----------------*/
+.somos {
+    padding-top: 10rem;
+}
+
+.paragrafo {
+    text-align: right;
+    padding: 2rem 0rem 0rem 0rem;
+    line-height: 1.1;
+    font-size: 18px;
+    z-index: 1;
+    font-family: MyriadPro;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.retangulo {
+    width: 4vw;
+    height: 55vh;
+    background: blue;
+    transform: rotate(180deg);
+    border-radius: 60px;
+    background-color: #00CDC2;
+    z-index: -2;
+    margin-top: -8%;
+    margin-left: -10%;
+}
+
+.titulo1_esquerda {
+    font-size: 82px;
+    margin-bottom: 0rem;
+    color: #00908C;
+    font-weight: 100;
+    padding-left: 7rem;
+    font-family: Gilroy;
+}
+
+.titulo2_esquerda {
+    font-size: 115px;
+    color: #00908C;
+    line-height: 0.7;
+    padding-left: 7rem;
+    text-align: right;
+    font-family: Gilroy;
+    font-weight: 400;
+}
+
+.imagem {
+    /*Config aplicada tbm para TECNOLOGIA*/
+    max-height: 60vh;
+    z-index: -1;
+    margin-top: -10%;
+    margin-left: 3%;
+    animation-duration: 4s;
+    animation-name: slideindireita;
+}
+
+@keyframes slideindireita {
+    from {
+        max-width: 1vw;
+        margin-left: 55%;
+        z-index: -2;
+    }
+
+    to {
+        margin-left: 3%;
+        z-index: -2;
+    }
+}
+
+.tecnologia .imagem {
+    max-height: 55vh;
+}
+
+.linhavertical {
+    height: 23vh;
+    border-right: 2px solid #ffffff;
+    animation-duration: 5s;
+    animation-name: slidelinhavertical;
+    animation-iteration-count: linear;
+}
+
+@keyframes slidelinhavertical {
+    from {
+        margin-top: -50%;
+        opacity: -1;
+    }
+
+    to {
+        margin-top: 0%;
+        opacity: 1;
+    }
+}
+
+.btn-saiba {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+    margin-left: -2%;
+    position: absolute;
+    left: 93%;
+    bottom: 0px;
+    margin-top: 0;
+    border-radius: 35px;
+    color: #000000;
+    border: none;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.popover {
+    max-width: 30vw;
+}
+
+.btn-saiba:hover {
+    background-color: #ffffff;
+    opacity: 50%;
+}
+
+.bi-play-fill {
+    color: #00CDC2;
+    float: right;
+    font-size: 24px;
+}
+
+.tecnologia {
+    padding-top: 5rem;
+}
+/*-----------------------------LIQUIDAÇÃO----------------------*/
+.liquidacao {
+    padding-top: 5rem
+}
+
+.titulo1_direita {
+    font-size: 70px;
+    color: #00908C;
+    padding-left: 7rem;
+    font-weight: 100;
+    text-align: right;
+    font-family: Gilroy;
+    font-weight: 200;
+}
+
+.titulo2_direita {
+    font-size: 84px;
+    color: #00908C;
+    line-height: 0.7;
+    padding-left: 7rem;
+    text-align: right;
+    font-family: Gilroy;
+    font-weight: 400;
+}
+
+.imagem-liquidacao {
+    /*Config aplicada tbm para TECNOLOGIA*/
+    max-height: 60vh;
+    z-index: -1;
+    margin-top: -10%;
+    margin-left: 3%;
+    animation-duration: 4s;
+    animation-name: slideinesquerda;
+}
+
+@keyframes slideinesquerda {
+    from {
+        max-width: 1vw;
+        margin-right: 55%;
+        z-index: -3;
+        margin-top: -10%;
+    }
+
+    to {
+        z-index: -3;
+    }
+}
+/*-----------------------------BOTÕES-----------------------*/
+.botoes-acessos {
+    padding-top: 7rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    width: 80vw;
+    font-weight: 100;
+    font-family: Gilroy;
+}
+
+.btn-docs {
+    border-radius: 30px;
+    border: none;
+    background-color: #00CDC2;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.3rem;
+    height: 7vh;
+    margin-bottom: 10vh;
+}
+
+footer {
+    background-color: #006566;
+    padding-left: 3vw;
+}
+
+footer a {
+    text-decoration: none;
+    color: #12403C;
+    font-size: 40px;
+}
+
+footer i {
+    padding: 2rem .5rem;
+}
+
+footer a:hover {
+    color: white;
+}
