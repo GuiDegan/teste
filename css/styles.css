@@ -1,19 +1,19 @@
 @font-face {
     font-family: MyriadPro;
     font-weight: 100;
-    src: url(../_Fonts/_Texto_Corrido/MyriadPro-Regular.otf);
+    src: url(../MyriadPro-Regular.otf);
 }
 
 @font-face {
     font-family: Gilroy;
     font-weight: 200;
-    src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-Regular.otf) format("opentype");
+    src: url(../Gilroy-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: Gilroy;
     font-weight: 300;
-    src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf) format("opentype");
+    src: url(../Gilroy-SemiBold.otf) format("opentype");
 }
 
 .conteudo {
