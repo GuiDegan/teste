@@ -1,19 +1,19 @@
 @font-face {
     font-family: MyriadPro;
     font-weight: 100;
-    src: url(../MyriadPro-Regular.otf);
+    src: url(../_Fonts/_Texto_Corrido/MyriadPro-Regular.otf);
 }
 
 @font-face {
     font-family: Gilroy;
     font-weight: 200;
-    src: url(../Gilroy-Regular.otf) format("opentype");
+    src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: Gilroy;
     font-weight: 300;
-    src: url(../Gilroy-SemiBold.otf) format("opentype");
+    src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf) format("opentype");
 }
 
 .conteudo {
@@ -24,7 +24,7 @@
 .logo_lina {
     min-width: 200px;
     height: 11vh;
-    background-image: url(../LINA_OFICIAL-01.png);
+    background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -67,7 +67,6 @@
     border-color: #00CDC2;
     margin-left: 10%;
 }
-
 /*----------------------------SIDEBAR-----------------------*/
 .col-sm-1 {
     z-index: -1;
@@ -79,7 +78,6 @@
     background-color: #00CDC2;
     min-width: 5vw;
 }
-
 /*-----------------------SOMOS e TECNOLOGIA----------------*/
 .somos {
     padding-top: 10rem;
@@ -88,13 +86,15 @@
 .paragrafo {
     margin-right: -20%;
     text-align: right;
-    padding: 1rem 0rem 0rem 7rem;
+    padding: 1rem 0rem 0rem 0rem;
     line-height: 1.4;
     font-size: 16px;
+    margin-left: -10%;
     z-index: 4;
     font-family: MyriadPro;
     font-weight: 200;
     margin-bottom: 0;
+    margin-right: -20%
 }
 
 .retangulo {
@@ -113,7 +113,7 @@
     margin-bottom: 0rem;
     color: #00908C;
     font-weight: 100;
-    padding-left: 7rem;
+    padding-left: 5rem;
     font-family: Gilroy;
 }
 
@@ -121,7 +121,7 @@
     font-size: 115px;
     color: #00908C;
     line-height: 0.7;
-    padding-left: 7rem;
+    padding-left: 5rem;
     text-align: right;
     font-family: Gilroy;
     font-weight: 400;
@@ -131,27 +131,28 @@
     /*Config aplicada tbm para TECNOLOGIA*/
     max-height: 60vh;
     z-index: -1;
-    margin-top: -10%;
-    margin-left: 3%;
     animation-duration: 4s;
     animation-name: slideindireita;
+    margin-left: 3%;
 }
 
 @keyframes slideindireita {
-    from {
-        max-width: 1vw;
-        margin-left: 55%;
-        z-index: -2;
-    }
+    0% {right: -45%;
+        clip-path: inset(0 85% 0 0);
+                }
+    100% {right: 0%;
+        clip-path: inset(0 10% 0 0);
+                }
+}
 
-    to {
-        margin-left: 3%;
-        z-index: -2;
-    }
+img.col-sm-7.imagem {
+    margin-top: -10%;
 }
 
 .tecnologia .imagem {
     max-height: 55vh;
+    animation-duration: 4s;
+    animation-name: slideindireita;
 }
 
 .linhavertical {
@@ -162,6 +163,7 @@
     animation-name: slidelinhavertical;
     animation-iteration-count: linear;
     margin-right: -19.5%;
+    margin-bottom: 13%;
 }
 
 @keyframes slidelinhavertical {
@@ -180,9 +182,9 @@
     background-color: #ffffff;
     padding: 0.5rem 1rem;
     line-height: 1.3rem;
-    margin-left: -2%;
+    margin-left: 0%;
     position: absolute;
-    left: 93%;
+    left: 109%;
     bottom: 0px;
     border-radius: 35px;
     color: #000000;
@@ -190,8 +192,8 @@
     z-index: 1;
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0.2rem;
-    margin-bottom: -11%;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0%;
 }
 
 .popover {
@@ -200,6 +202,7 @@
 
 .btn-saiba:hover {
     background-color: #ffffff;
+    color: #000000;
     opacity: 50%;
 }
 
@@ -218,20 +221,20 @@
 }
 
 .titulo1_direita {
-    font-size: 70px;
+    font-size: 50px;
     color: #00908C;
-    padding-left: 7rem;
     font-weight: 100;
+    margin-left: 2.5%;
     text-align: right;
     font-family: Gilroy;
     font-weight: 200;
 }
 
 .titulo2_direita {
-    font-size: 84px;
+    font-size: 70px;
     color: #00908C;
     line-height: 0.7;
-    padding-left: 7rem;
+    margin-left: 2.5%;
     text-align: right;
     font-family: Gilroy;
     font-weight: 400;
@@ -247,17 +250,17 @@
     animation-name: slideinesquerda;
 }
 
-@keyframes slideinesquerda {
-    from {
-        max-width: 1vw;
-        margin-right: 55%;
-        z-index: -3;
-        margin-top: -10%;
-    }
+.float-left {
+    margin-left: -9%;;
+}
 
-    to {
-        z-index: -3;
-    }
+@keyframes slideinesquerda {
+    0% {left: -1%;
+      clip-path: inset(0 85% 0 0);
+                }
+    100% {left: 0%;
+        clip-path: inset(0 0% 0 0);
+                }
 }
 /*-----------------------------BOTÕES-----------------------*/
 .botoes-acessos {
