@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: MyriadPro;
     font-weight: 100;
@@ -24,7 +28,7 @@
 .logo_lina {
     min-width: 200px;
     height: 11vh;
-    background-image: url(../LINA_OFICIAL-01.png);
+    background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -36,28 +40,29 @@
     border-radius: 0px 0px 0px 40px;
     position: fixed;
     margin-left: -2vw;
-    z-index: 2;
     min-width: 96vw;
+    z-index: 2;
 }
 
 .navbar-nav {
-    flex-direction: row !important;
-    padding-right: 2rem;
-}
-
-.nav-link {
-    display: inline-flex;
+    padding-right: 4rem;
 }
 
 .navbar .navbar-nav .nav-link {
     color: #00CDC2;
     font-weight: 500;
     font-size: 20px;
-    margin-left: 10%;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    font-family: Gilroy;
+    justify-content: space-between;
+    padding-right: 4rem;
 }
 
 .btn_login {
-    width: 130px;
+    font-size: 20px;
+    width: 9.8vw;
+    height: 5vh;
     font-weight: 500;
     border-style: solid;
     border-width: 1px;
@@ -65,8 +70,9 @@
     color: #00CDC2;
     background: none;
     border-color: #00CDC2;
-    margin-left: 10%;
+    margin-top: 5%;
 }
+
 /*----------------------------SIDEBAR-----------------------*/
 .col-sm-1 {
     z-index: -1;
@@ -115,6 +121,7 @@
     font-weight: 100;
     padding-left: 5rem;
     font-family: Gilroy;
+    z-index: -1;
 }
 
 .titulo2_esquerda {
@@ -125,24 +132,29 @@
     text-align: right;
     font-family: Gilroy;
     font-weight: 400;
+    z-index: 0;
 }
 
 .imagem {
     /*Config aplicada tbm para TECNOLOGIA*/
     max-height: 60vh;
     z-index: -1;
-    animation-duration: 4s;
-    animation-name: slideindireita;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-name: slideindireita;
+    -webkit-animation-delay: 0s;
     margin-left: 3%;
 }
 
-@keyframes slideindireita {
-    0% {right: -45%;
+@-webkit-keyframes slideindireita {
+    0% {
+        right: -45%;
         clip-path: inset(0 85% 0 0);
-                }
-    100% {right: 0%;
+    }
+
+    100% {
+        right: 0%;
         clip-path: inset(0 10% 0 0);
-                }
+    }
 }
 
 img.col-sm-7.imagem {
@@ -151,22 +163,28 @@ img.col-sm-7.imagem {
 
 .tecnologia .imagem {
     max-height: 55vh;
-    animation-duration: 4s;
-    animation-name: slideindireita;
+    /*animation-duration: 4s;*/
+    /*animation-name: slideindireita;*/
 }
 
 .linhavertical {
-    height: 18vh;
+    height: 25vh;
     margin-top: 2%;
     border-right: 0.5px solid #ffffff;
     animation-duration: 5s;
-    animation-name: slidelinhavertical;
-    animation-iteration-count: linear;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
     margin-right: -19.5%;
     margin-bottom: 13%;
 }
 
-@keyframes slidelinhavertical {
+.linhaverticaltech {
+    height: 30vh;
+}
+
+
+@-webkit-keyframes slidelinhavertical {
     from {
         margin-top: -50%;
         opacity: -1;
@@ -189,11 +207,12 @@ img.col-sm-7.imagem {
     border-radius: 35px;
     color: #000000;
     border: none;
-    z-index: 1;
+    z-index: 0;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.1rem;
     margin-bottom: 0%;
+    min-width: 180px;
 }
 
 .popover {
@@ -215,6 +234,7 @@ img.col-sm-7.imagem {
 .tecnologia {
     padding-top: 10rem;
 }
+
 /*-----------------------------LIQUIDAÇÃO----------------------*/
 .liquidacao {
     padding-top: 10rem
@@ -228,6 +248,7 @@ img.col-sm-7.imagem {
     text-align: right;
     font-family: Gilroy;
     font-weight: 200;
+    z-index: -1;
 }
 
 .titulo2_direita {
@@ -238,6 +259,7 @@ img.col-sm-7.imagem {
     text-align: right;
     font-family: Gilroy;
     font-weight: 400;
+    z-index: -1;
 }
 
 .imagem-liquidacao {
@@ -246,21 +268,23 @@ img.col-sm-7.imagem {
     z-index: -1;
     margin-top: -10%;
     margin-left: 3%;
-    animation-duration: 4s;
-    animation-name: slideinesquerda;
+    -webkit-animation: slideinesquerda 6s ease;
 }
 
 .float-left {
-    margin-left: -9%;;
+    margin-left: -9%;
 }
 
-@keyframes slideinesquerda {
-    0% {left: -1%;
-      clip-path: inset(0 85% 0 0);
-                }
-    100% {left: 0%;
-        clip-path: inset(0 0% 0 0);
-                }
+@-webkit-keyframes slideinesquerda {
+    0% {
+        left: -20%;
+        clip-path: inset(0 0 0 45%);
+    }
+
+    100% {
+        left: 0%;
+        clip-path: inset(0 0 0 10%);
+    }
 }
 /*-----------------------------BOTÕES-----------------------*/
 .botoes-acessos {
@@ -281,6 +305,7 @@ img.col-sm-7.imagem {
     letter-spacing: 0.3rem;
     height: 7vh;
     margin-bottom: 10vh;
+    z-index: -1;
 }
 
 footer {
@@ -300,4 +325,106 @@ footer i {
 
 footer a:hover {
     color: white;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .titulo1_esquerda {
+        font-size: 64px;
+        padding-left: 0rem;
+    }
+    
+    .titulo2_esquerda {
+        font-size: 70px;
+                padding-left: 0rem;
+    }
+
+    .btn-saiba {
+        left: 50%;
+    }
+
+    .linhavertical {
+            margin-right: -5.5%;
+
+    }
+}
+
+
+.modal {
+    z-index: 1;
+}
+
+
+.modal-backdrop {
+    position: inherit;
+}
+
+.modal-backdrop.show {
+    opacity: .5;
+}
+
+.modal-title {
+    font-size: 60px;
+    padding-left: 23rem;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-header h1 {
+    color: #00CDC2;
+    opacity: 1;
+    font-family: Gilroy;
+    font-weight: 400;
+    z-index: 3;
+    letter-spacing: 0.3rem;
+    margin-top: 10%;
+}
+
+.form-group h5 {
+    color: #ffffff;
+    margin: -2% 25% 0% 29%;
+    text-align: justify;
+    font-family: Gilroy;
+    font-weight: 100;
+    line-height: 1.4;
+}
+
+
+.modal.show .modal-dialog {
+    margin: 0px;
+}
+
+.modal-footer {
+    width: 44vw;
+    margin-left: 30%;
+}
+
+.modal-content {
+    background-color: #006566;
+    /*background-color: #00908C;*/
+    opacity: 0.9;
+    margin-top: 0%;
+    width: 100vw;
+    height: 100vh;
+    padding: 0rem;
+}
+
+.close {
+    color: #ffffff;
+    opacity: 1;
+    font-size: 32px;
+    margin: -9% -12% 0% 0%;
+    line-height: 2;
+    text-shadow: 0 0px 0 #fff;   
+}
+
+span {
+
+    padding: 0rem 0.7rem;
+    margin: 0px 0px 0px 0px;
+}
+
+.mostrar{
+    opacity: 0;
 }
