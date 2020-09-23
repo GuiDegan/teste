@@ -5,20 +5,20 @@ html {
 @font-face {
   font-family: MyriadPro;
   font-weight: 100;
-  src: url(../_Fonts/_Texto_Corrido/MyriadPro-Regular.otf);
+  src: url(/MyriadPro-Regular.otf);
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 200;
-  src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-Regular.otf)
+  src: url(/Gilroy-Regular.otf)
     format("opentype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 300;
-  src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf)
+  src: url(/Gilroy-SemiBold.otf)
     format("opentype");
 }
 
@@ -30,7 +30,7 @@ html {
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
+  background-image: url(/LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -569,7 +569,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 50vh;
-    background-image: url("/LINA_Elements/_Imagens/Home_Lina_1\(mobile\).png");
+    background-image: url("/_Imagens/Home_Lina_1\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -579,7 +579,7 @@ footer a:hover {
     margin: 0;
     height: 50vh;
     background-position: center;
-    background-image: url("/LINA_Elements/_Imagens/Home_Lina_2\(mobile\).png");
+    background-image: url("/_Imagens/Home_Lina_2\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -588,7 +588,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 50vh;
-    background-image: url("/LINA_Elements/_Imagens/Home_Lina_3\(mobile\).png");
+    background-image: url("/_Imagens/Home_Lina_3\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
   }
