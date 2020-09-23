@@ -1,0 +1,137 @@
+/*------------------------------------------------------- TÍTULO -------------------------------------------------------*/
+.conteudo {
+  background-color: #44b9b7;
+  position: sticky;
+}
+
+.titulos {
+  padding-top: 10rem;
+}
+/*------------------------------------------------------ PRODUTO1 ------------------------------------------------------*/
+.produto_linhabranca {
+  background-color: #ffffff;
+  width: 80vw;
+  margin-left: 5%;
+  margin-top: 5%;
+  color: #ffffff;
+  min-height: 2vw;
+}
+
+.produto_geral {
+  background-color: #dadada;
+  border-radius: 0px 0px 0px 60px;
+  width: 80vw;
+  height: 65vh;
+  margin-left: 5%;
+}
+
+.produtos_texto {
+  padding-top: 2rem;
+}
+
+.produtos_subtitulo {
+  padding-left: 6rem;
+  font-size: 16px;
+}
+
+.reverse-column {
+  padding-top: 3rem;
+}
+
+ul {
+  padding-top: 1rem;
+  margin: 0;
+  padding-left: 6rem;
+}
+
+ul li {
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.row {
+}
+
+.imagem {
+  z-index: 1;
+  position: relative;
+  left: 8%;
+}
+
+.peso {
+  font-size: 74px;
+  font-weight: 400;
+}
+
+.titulo2_esquerda {
+  font-size: 40px;
+  color: #00908c;
+  line-height: 0.9;
+}
+
+h2 {
+  line-height: 0.9;
+}
+
+/*------------------------------------------------------ PRODUTO2 ------------------------------------------------------*/
+.linhaverde {
+  background-color: #00cdc2;
+}
+
+.verde {
+  background-color: #00908c;
+  color: #ffffff;
+}
+
+.produto2_titulo {
+  padding-left: 3rem;
+  text-align: -webkit-center;
+}
+
+.produto2_subtitulo {
+  text-align: center;
+  padding-left: 6rem;
+  font-size: 16px;
+}
+
+.imagem-plataforma_bass {
+  position: absolute;
+  z-index: 1;
+}
+
+.justify-content-center {
+  padding-left: 7rem;
+}
+/*------------------------------------------------------ FAÇA PARTE ------------------------------------------------------*/
+.facaparte {
+  margin-top: 5%;
+}
+
+.facaparte_texto {
+  font-size: 50px;
+  padding-left: 3rem;
+  font-family: Gilroy;
+  font-weight: 100;
+  margin: 0;
+}
+
+.facaparte_texto2 {
+  margin-top: -2%;
+
+  font-size: 72px;
+  padding-left: 3rem;
+  font-family: Gilroy;
+}
+
+input {
+  border-radius: 0px !important;
+}
+
+.form-control {
+  height: 9vh;
+}
+
+.btn-docs {
+  background-color: #006566;
+}

@@ -1,0 +1,694 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  font-weight: 100;
+  src: url(../_Fonts/_Texto_Corrido/MyriadPro-Regular.otf);
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 200;
+  src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-Regular.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 300;
+  src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf)
+    format("opentype");
+}
+
+.conteudo {
+  background-color: #dadada;
+  position: sticky;
+}
+
+.logo_lina {
+  min-width: 200px;
+  height: 11vh;
+  background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  height: 15vh;
+  background: linear-gradient(to right, #00908c 0%, #12403c 100%);
+  border-radius: 0px 0px 0px 40px;
+  position: fixed;
+  margin-left: -2vw;
+  min-width: 96vw;
+  z-index: 2;
+}
+
+.navbar-nav {
+  padding-right: 4rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #00cdc2;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  font-family: Gilroy;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.btn_login {
+  font-size: 20px;
+  width: 9.8vw;
+  font-weight: 500;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  color: #00cdc2;
+  background: none;
+  border-color: #00cdc2;
+}
+
+/*----------------------------SIDEBAR-----------------------*/
+.col-sm-1 {
+  z-index: -1;
+  max-width: 6.5%;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #00cdc2;
+  min-width: 5vw;
+}
+
+/*-----------------------SOMOS e TECNOLOGIA----------------*/
+.somos {
+  padding-top: 10rem;
+}
+
+.paragrafo {
+  text-align: right;
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 1.4;
+  font-size: 16px;
+  z-index: 4;
+  font-family: MyriadPro;
+  font-weight: 200;
+  margin: 0% -20% 0% -10%;
+}
+
+.paragrafo_tec {
+  text-align: right;
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 1.4;
+  font-size: 16px;
+  z-index: 4;
+  font-family: MyriadPro;
+  font-weight: 200;
+  margin: 0% -20% 0% -10%;
+}
+
+.retangulo {
+  height: 60vh;
+  background: blue;
+  transform: rotate(180deg);
+  border-radius: 60px;
+  background-color: #00cdc2;
+  z-index: -2;
+  margin: -10% 0% 0% -10%;
+}
+
+.titulo1_esquerda {
+  font-size: 82px;
+  margin-bottom: 0rem;
+  color: #00908c;
+  font-weight: 100;
+  padding-left: 5rem;
+  font-family: Gilroy;
+  z-index: -1;
+}
+
+.titulo2_esquerda {
+  font-size: 115px;
+  color: #00908c;
+  line-height: 0.7;
+  padding-left: 5rem;
+  font-family: Gilroy;
+  font-weight: 400;
+  z-index: 0;
+}
+
+.imagem {
+  /*Config aplicada tbm para TECNOLOGIA*/
+  max-height: 60vh;
+  z-index: -1;
+  margin-left: 8%;
+}
+
+.js .anim-somos_tec {
+  opacity: 0;
+}
+
+.js .anim-somos_tec-init {
+  opacity: 1;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-name: slideinsomos_tec;
+  -webkit-animation-delay: 0s;
+}
+
+@-webkit-keyframes slideinsomos_tec {
+  0% {
+    right: -45%;
+    clip-path: inset(0 85% 0 0);
+  }
+
+  100% {
+    right: 0%;
+    clip-path: inset(0 10% 0 0);
+  }
+}
+
+img.col-sm-7.imagem {
+  margin-top: -10%;
+}
+
+.linhavertical {
+  height: 25vh;
+  border-right: 0.5px solid #ffffff;
+  animation-duration: 5s;
+  -webkit-animation-name: slidelinhavertical;
+  -webkit-animation-iteration-count: linear;
+  -webkit-animation-delay: 0s;
+  margin: 2% -19.2% 13% 0%;
+}
+
+.linhaverticaltech {
+  height: 30vh;
+}
+
+@-webkit-keyframes slidelinhavertical {
+  from {
+    margin-top: -50%;
+    opacity: -1;
+  }
+
+  to {
+    margin-top: 2%;
+    opacity: 1;
+  }
+}
+
+.btn-saiba {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+  position: absolute;
+  left: 109%;
+  bottom: 0px;
+  border-radius: 35px;
+  color: #000000;
+  border: none;
+  z-index: 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  min-width: 180px;
+}
+
+.popover {
+  max-width: 30vw;
+}
+
+.btn-saiba:hover {
+  background-color: #ffffff;
+  color: #000000;
+  opacity: 50%;
+}
+
+.btn-saiba:focus {
+  color: #000000;
+  background-color: #ffffff !important;
+}
+
+.bi-play-fill {
+  color: #00cdc2;
+  float: right;
+  font-size: 24px;
+}
+
+/*-----------------------------TECNOLOGIA----------------------*/
+.tecnologia {
+  padding-top: 10rem;
+}
+
+/*-----------------------------LIQUIDAÇÃO----------------------*/
+.liquidacao {
+  padding-top: 10rem;
+}
+
+.titulo1_direita {
+  font-size: 50px;
+  color: #00908c;
+  font-weight: 100;
+  margin-left: 2.5%;
+  text-align: right;
+  font-family: Gilroy;
+  font-weight: 200;
+  z-index: -1;
+}
+
+.titulo2_direita {
+  font-size: 70px;
+  color: #00908c;
+  line-height: 0.7;
+  margin-left: 2.5%;
+  text-align: right;
+  font-family: Gilroy;
+  font-weight: 400;
+  z-index: -1;
+  padding-bottom: 2rem;
+}
+
+.imagem-liquidacao {
+  max-height: 60vh;
+  z-index: -1;
+  margin: -10% 0% 0% -10%;
+}
+
+.js .anim-liquidacao {
+  opacity: 0;
+}
+
+.js .anim-liquidacao-init {
+  opacity: 1;
+  -webkit-animation: slidein_liq 6s ease;
+}
+
+@-webkit-keyframes slidein_liq {
+  0% {
+    left: -45%;
+    clip-path: inset(0 0 0 85%);
+  }
+
+  100% {
+    left: 0%;
+    clip-path: inset(0 0 0 10%);
+  }
+}
+
+.float-left {
+  margin-left: -9%;
+}
+
+/*------------------------------BOTÕES------------------------*/
+.botoes-acessos {
+  padding-top: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-weight: 100;
+  font-family: Gilroy;
+}
+
+.btn-docs {
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.3rem;
+  height: 7vh;
+  margin-bottom: 10vh;
+  z-index: 0;
+  background-color: #00908c;
+}
+
+.btn-docs:hover {
+  background-color: #00cdc2 !important;
+}
+
+.btn-docs:focus {
+  background-color: #006566 !important;
+}
+
+footer {
+  background-color: #006566;
+  padding-left: 3vw;
+}
+
+footer a {
+  text-decoration: none;
+  color: #12403c;
+  font-size: 40px;
+}
+
+footer i {
+  padding: 2rem 0.5rem;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/*--------------------------CONFIG. GLOBAIS--------------------*/
+.form-group {
+  margin-top: 12%;
+}
+
+.form-group h1 {
+  color: #00cdc2;
+  font-family: Gilroy;
+  font-weight: 300;
+  font-size: 70px;
+  margin-left: 35%;
+}
+
+.text-right {
+  text-align: initial !important;
+}
+
+.form-group h5 {
+  color: #ffffff;
+  margin: 0% 0% 0% 35%;
+  text-align: justify;
+  font-family: Gilroy;
+  font-weight: 100;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.modal {
+  z-index: 1;
+}
+
+.modal-backdrop {
+  position: inherit;
+  opacity: 0.5;
+}
+
+.modal.show .modal-dialog {
+  margin: 0px;
+}
+
+.modal-footer {
+  width: 46vw;
+  margin-left: 27%;
+}
+
+.modal-content {
+  background-color: #006566;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.close {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 32px;
+  margin: -9% -12% 0% 0%;
+  line-height: 2;
+  text-shadow: 0 0px 0 #fff;
+  z-index: 2;
+}
+
+.hide-d {
+  display: none;
+}
+
+/*------------------------------MOBILE-----------------------*/
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nomargin {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    height: 11vh;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    right: 0px;
+    left: 0px;
+  }
+
+  .navbar-nav {
+    width: 120vw;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #00cdc2;
+    padding: 0rem;
+    line-height: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none !important;
+    color: #00cdc2;
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+
+  .navbar-toggler i {
+    line-height: 1.5rem;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 2.3rem;
+  }
+
+  .navbar-toggler-icon-close {
+    background-image: none !important;
+    color: #00cdc2;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .navbar-collapse {
+    z-index: -1;
+    background: linear-gradient(to right, #00908c 0%, #12403c 78%);
+    padding-left: 2rem;
+    animation-duration: 1s;
+    animation-iteration-count: static;
+  }
+
+  .btn_login {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 30px;
+    color: #00cdc2;
+    padding-left: 0rem;
+    margin-top: 0%;
+  }
+
+  .logo_lina {
+    min-width: 150px;
+    height: 8vh;
+  }
+
+  .paragrafo {
+    font-size: 12px;
+    padding: 1rem 0rem 0rem 7rem;
+    margin: 0% 8% 0% 0%;
+  }
+
+  .paragrafo_tec {
+    font-size: 12px;
+    padding: 1rem 0rem 0rem 7rem !important;
+    margin: none;
+  }
+
+  .titulo1_esquerda {
+    padding-left: 2rem !important;
+    font-size: 58px !important;
+  }
+
+  .titulo2_esquerda {
+    padding-left: 2rem !important;
+    font-size: 70px !important;
+  }
+
+  .btn-saiba {
+    left: 20%;
+    background-color: #ffffff;
+    padding: 0.5rem 0rem;
+    line-height: 1.3rem;
+    position: relative;
+    border-radius: 35px;
+    color: #000000;
+    border: none;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    min-width: 180px;
+    margin-top: 10%;
+  }
+
+  .mobile .js .anim-somos_tec-init {
+    opacity: 1;
+    -webkit-animation-duration: 0s;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  .reverse-column {
+    flex-direction: column-reverse;
+  }
+
+  .hide-m {
+    display: none;
+  }
+
+  .hide-d {
+    display: block;
+  }
+
+  .somos {
+    padding-top: 0rem;
+  }
+
+  .imagem-m {
+    width: 100vw;
+    margin: 0;
+    height: 50vh;
+    background-image: url("/LINA_Elements/_Imagens/Home_Lina_1\(mobile\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imagem-mobile-liquidacao {
+    width: 100vw;
+    margin: 0;
+    height: 50vh;
+    background-position: center;
+    background-image: url("/LINA_Elements/_Imagens/Home_Lina_2\(mobile\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imagem-tecnologia {
+    width: 100vw;
+    margin: 0;
+    height: 50vh;
+    background-image: url("/LINA_Elements/_Imagens/Home_Lina_3\(mobile\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .titulo1_direita {
+    padding-top: 2rem;
+    padding-right: 2rem !important;
+    font-size: 34px !important;
+  }
+
+  .liquidacao {
+    padding-top: 2rem;
+  }
+
+  .titulo2_direita {
+    padding-right: 2rem !important;
+    font-size: 60px !important;
+  }
+
+  .liquidacao {
+    padding-left: 0px;
+  }
+
+  .liquidacao p {
+    font-size: 50px;
+    font-size: 12px;
+    padding: 0rem !important;
+    text-align: left;
+    padding-left: 3rem !important;
+  }
+
+  .liquidacao button {
+    margin-left: 50%;
+  }
+
+  .tecnologia {
+    padding-top: 2rem;
+    padding-left: 0rem;
+  }
+
+  .titulo_tecnologia {
+    padding-top: 2rem;
+    font-size: 36px !important;
+  }
+
+  .titulo2_tecnologia {
+    font-size: 58px !important;
+    padding-right: 2rem;
+  }
+
+  .btn-saiba-m {
+    left: 35%;
+    z-index: 1;
+  }
+
+  .form-group h1 {
+    color: #00cdc2;
+    font-family: Gilroy;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 0%;
+  }
+
+  .form-group h5 {
+    color: #ffffff;
+    margin: 0% 0% 0% 0%;
+    text-align: justify;
+    font-family: Gilroy;
+    font-weight: 100;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+
+  .btn-docs {
+    margin-bottom: 3vh;
+    width: 50vw;
+    height: 5vh;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+  }
+
+  .botoes-acessos {
+    padding-top: 3rem;
+  }
+
+  .modal-dialog {
+    padding-top: 5rem;
+  }
+
+  .modal-body {
+    padding-top: 0rem;
+    flex: none;
+  }
+
+  .modal-footer {
+    width: 85vw;
+    margin-left: 5%;
+  }
+
+  .close {
+    margin-top: -17%;
+  }
+}
