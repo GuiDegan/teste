@@ -7,21 +7,32 @@
 .titulos {
   padding-top: 10rem;
 }
+
+.justify-content-center {
+  padding-left: 4rem;
+}
 /*------------------------------------------------------ PRODUTO1 ------------------------------------------------------*/
 .produto_linhabranca {
   background-color: #ffffff;
-  width: 80vw;
+  width: 65vw;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
   color: #ffffff;
   min-height: 2vw;
+}
+
+.testando {
+  height: 420px;
+}
+
+.produto_geral {
+  height: 100%;
 }
 
 .produto_geral {
   background-color: #dadada;
   border-radius: 0px 0px 0px 60px;
-  width: 80vw;
-  height: 65vh;
+  width: 65vw;
   margin-left: 5%;
 }
 
@@ -39,7 +50,6 @@
 }
 
 ul {
-  padding-top: 1rem;
   margin: 0;
   padding-left: 6rem;
 }
@@ -50,17 +60,21 @@ ul li {
   font-size: 20px;
 }
 
-.row {
-}
-
 .imagem {
   z-index: 1;
   position: relative;
-  left: 8%;
+  left: 4%;
+  padding: 0;
+}
+
+.titulo1_esquerda {
+  font-size: 60px;
+  margin: 0;
+  padding-left: 2rem;
 }
 
 .peso {
-  font-size: 74px;
+  font-size: 60px;
   font-weight: 400;
 }
 
@@ -68,13 +82,17 @@ ul li {
   font-size: 40px;
   color: #00908c;
   line-height: 0.9;
+  padding-left: 5rem;
 }
 
 h2 {
   line-height: 0.9;
 }
-
 /*------------------------------------------------------ PRODUTO2 ------------------------------------------------------*/
+.produto2 {
+  padding-top: 5rem;
+}
+
 .linhaverde {
   background-color: #00cdc2;
 }
@@ -85,23 +103,26 @@ h2 {
 }
 
 .produto2_titulo {
-  padding-left: 3rem;
-  text-align: -webkit-center;
+  left: 18%;
 }
 
 .produto2_subtitulo {
-  text-align: center;
-  padding-left: 6rem;
+  left: 24%;
+  padding-left: 5rem;
   font-size: 16px;
 }
 
 .imagem-plataforma_bass {
   position: absolute;
   z-index: 1;
+  left: 7%;
+  padding-top: 3rem;
+  height: -webkit-fill-available;
+  height: 18%;
 }
 
-.justify-content-center {
-  padding-left: 7rem;
+.produto3 {
+  padding-top: 5rem;
 }
 /*------------------------------------------------------ FAÇA PARTE ------------------------------------------------------*/
 .facaparte {
@@ -109,7 +130,7 @@ h2 {
 }
 
 .facaparte_texto {
-  font-size: 50px;
+  font-size: 44px;
   padding-left: 3rem;
   font-family: Gilroy;
   font-weight: 100;
@@ -118,14 +139,17 @@ h2 {
 
 .facaparte_texto2 {
   margin-top: -2%;
-
-  font-size: 72px;
+  font-size: 60px;
   padding-left: 3rem;
   font-family: Gilroy;
 }
 
+.col-sm-5 {
+}
+
 input {
   border-radius: 0px !important;
+  max-width: 93.5%;
 }
 
 .form-control {
@@ -134,4 +158,5 @@ input {
 
 .btn-docs {
   background-color: #006566;
+  right: 5%;
 }
