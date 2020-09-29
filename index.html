@@ -2,14 +2,15 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta charset="UTF-8" />
-
+    <html lang="pt-br">
+    <meta charset="utf-8" />
+    <meta name="description" content="Página inicial Lina.">
     <link
       rel="shortcut icon"
-      href="favicon.ico"
+      href="./LINA_Elements/_favIcon/favicon.ico"
       type="image/x-icon"
     />
+    <link rel="apple-touch-icon" href="LINA_Elements/_favIcon/apple-touch-icon.png">
     <title>Linapay - Início</title>
     <link
       rel="stylesheet"
@@ -17,6 +18,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="apple-touch-icon" href="/example.png">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -35,7 +37,6 @@
       crossorigin="anonymous"
     />
     <link href="css/styles-home.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -43,7 +44,7 @@
       <div class="sidebar hide-m"></div>
       <div class="col-sm-12 col-md-11 nomargin">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand logo_lina"></a>
+          <a class="navbar-brand logo_lina" aria-label="Logo Lina"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -62,16 +63,16 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
+                <a class="nav-link" href="#" aria-label="Sobre">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="produtos.html">Produtos</a>
+                <a class="nav-link" href="produtos.html" aria-label="Produtos">Produtos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contato">Contato</a>
+                <a class="nav-link" href="#contato" aria-label="Contato">Contato</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link" href="#" aria-label="FAQ">FAQ</a>
               </li>
               <li class="nav-item">
                 <button class="btn_login">Login</button>
@@ -87,7 +88,7 @@
           </div>
           <div class="row reverse-column">
             <div class="texto col-sm-4 text-right">
-              <p class="paragrafo" style="padding: 1rem 0rem 0rem 7rem">
+              <p class="paragrafo" style="padding: 1rem 0rem 0rem 6rem">
                 A Lina é a mais nova infraestrutura de pagamentos do mercado
                 brasileiro. Somos um hub de conectividade para FinTechs e
                 negócios digitais, e nascemos com o propósito de transformar o
@@ -95,27 +96,6 @@
                 convivência entre os meios atuais e os novos ecossistemas de
                 pagamentos instantâneos PIX e Open Banking.
               </p>
-              <div class="linhavertical hide-m"></div>
-              <button
-                type="button"
-                class="btn btn-primary btn-saiba"
-                data-toggle="modal"
-                data-target="#modalsomos"
-              >
-                <b>SAIBA MAIS</b>
-                <svg
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 16 16"
-                  class="bi bi-play-fill"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-                  />
-                </svg>
-              </button>
               <div class="container">
                 <div class="row">
                   <div class="col-sm-12">
@@ -172,14 +152,27 @@
             </div>
             <img
               class="col-sm-7 imagem anim-somos_tec hide-m"
-              src="Home1-RecorteEsquerdo.png"
+              src="LINA_Elements/_Imagens/Home_Lina_2.png"
               alt="Imagem de uma cidade"
             />
             <div class="col-sm-1 retangulo hide-m"></div>
           </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="linhavertical hide-m"></div>
+              <button type="button" class="btn btn-primary btn-saiba" data-toggle="modal" data-target="#modalsomos">
+                <b>SAIBA MAIS</b>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg>
+              </button>
+            </div>
+          </div>
         </section>
         <section class="container liquidacao col-10">
-          <img class="hide-d imagem-mobile-liquidacao" />
+          <img class="hide-d imagem-mobile-liquidacao"/>
           <h2 class="col-sm-12 titulo1_direita">descomplicamos a</h2>
           <h2 class="col-sm-12 titulo2_direita">liquidação</h2>
           <div class="row">
@@ -189,41 +182,17 @@
             ></div>
             <img
               class="col-sm-7 hide-m imagem-liquidacao anim-liquidacao"
-              src="Home2-RecorteDireito.png"
-              alt="Imagem de um Smartphone"
+              src="LINA_Elements/_Imagens/Home_Lina_1.png"
+              alt="Imagem de uma mulher utilizando um Notebook"
             />
             <div class="texto col-sm-4 col-8">
-              <p class="paragrafo text-left" style="padding-right: 3rem">
+              <p class="paragrafo text-left">
                 A combinação ÚNICA de expertise técnica, domínio do negócio e
                 invoação tecnológica, capaz de possibilitar processos de
                 liquidação financeira inteligentes e simplificados.Liquidamos
                 pagamentos de forma intuitiva e inovadora, não importa o
                 instrumento!
               </p>
-              <div
-                class="linhavertical linhaverticalliquidacao hide-m float-left"
-              ></div>
-              <button
-                type="button"
-                class="btn btn-primary btn-saiba"
-                style="left: -10%"
-                data-toggle="modal"
-                data-target="#modalliquidacao"
-              >
-                <b>SAIBA MAIS</b>
-                <svg
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 16 16"
-                  class="bi bi-play-fill"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-                  />
-                </svg>
-              </button>
               <div class="container">
                 <div class="row">
                   <div class="col-sm-12">
@@ -278,53 +247,39 @@
               </div>
             </div>
           </div>
-        </section>
-        <section class="container tecnologia col-10">
-          <img class="imagem-tecnologia hide-d" style="margin-top: 1%" />
-          <h2 class="col-sm-12 titulo1_esquerda titulo_tecnologia">
-            apaixonados por
-          </h2>
-          <h2 class="col-sm-6 titulo2_esquerda titulo2_tecnologia">
-            tecnologia
-          </h2>
           <div class="row">
-            <div class="texto col-sm-4 text-right col-9">
-              <p class="paragrafo_tec" style="padding: 7rem 0rem 0rem 7rem">
+            <div class="col-sm-12">
+              <div class="linhavertical linhaverticalliquidacao hide-m float-left"></div>
+              <button type="button" class="btn btn-primary btn-saiba" style="left: 62%; bottom: 42%" id="botao-liquidacao" data-toggle="modal"
+                data-target="#modalliquidacao">
+                <b>SAIBA MAIS</b>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="container somos col-10">
+          <img class="hide-d imagem-mobile-tecnologia" />
+          <div class="textos">
+            <h2 class="col-12 col-sm-10 titulo1_esquerda liquidacao-mobile">apaixonados por</h2>
+            <h2 class="col-12 col-sm-6 titulo2_esquerda liquidacao-mobile2" style="padding-bottom: 0rem;">tecnologia</h2>
+          </div>
+          <div class="row reverse-column">
+            <div class="texto col-sm-4 text-right">
+              <p class="paragrafo" style="padding: 2rem 0rem 0rem 6rem">
                 Nos orgulhamos de ser uma empresa de tecnologia e somos
                 apaixonados por nossas soluções. E é exatamente por isso que
                 integrar com a Lina é um processo fácil e transparente. É sempre
                 um prazer falar dos nossos serviços e das nossas APIs!
               </p>
-              <div class="linhavertical linhaverticaltech hide-m"></div>
-              <button
-                type="button"
-                class="btn btn-primary btn-saiba btn-saiba-m"
-                data-toggle="modal"
-                data-target="#modaltecnologia"
-              >
-                <b>SAIBA MAIS</b>
-                <svg
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 16 16"
-                  class="bi bi-play-fill"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-                  />
-                </svg>
-              </button>
               <div class="container">
                 <div class="row">
                   <div class="col-sm-12">
-                    <div
-                      class="modal fade"
-                      id="modaltecnologia"
-                      tabindex="-1"
-                      aria-hidden="true"
-                    >
+                    <div class="modal fade" id="modaltecnologia" tabindex="-1" aria-hidden="true">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-body">
@@ -358,12 +313,7 @@
                             </form>
                           </div>
                           <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
                           </div>
@@ -374,13 +324,22 @@
                 </div>
               </div>
             </div>
-            <img
-              class="col-sm-7 imagem hide-m anim-somos_tec"
-              style="margin-top: 1%"
-              src="Home_Lina_3.png"
-              alt="Imagem de uma cidade"
-            />
-            <div class="col-sm-1 retangulo hide-m" style="margin-top: 1%"></div>
+            <img class="col-sm-7 imagem anim-somos_tec hide-m" src="LINA_Elements/_Imagens/Home_Lina_3.png"
+              alt="Imagem de uma cidade" />
+            <div class="col-sm-1 retangulo hide-m"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="linhavertical hide-m"></div>
+              <button type="button" class="btn btn-primary btn-saiba" data-toggle="modal" data-target="#modaltecnologia">
+                <b>SAIBA MAIS</b>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg>
+              </button>
+            </div>
           </div>
         </section>
         <section class="container botoes-acessos">
@@ -395,11 +354,11 @@
     </main>
     <footer id="contato">
       <a href="#"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.linkedin.com/company/lina-pay/" target="_blank"
+      <a href="https://www.linkedin.com/company/lina-pay/" aria-label="Linkedin" rel="noopener" target="_blank"
         ><i class="fab fa-linkedin"></i
       ></a>
       <a href="https://www.instagram.com/lina.infratech/"
-        ><i class="fab fa-instagram-square"></i
+        aria-label="Instagram"><i class="fab fa-instagram-square"></i
       ></a>
     </footer>
   </body>
