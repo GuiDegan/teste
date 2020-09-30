@@ -12,14 +12,12 @@ html {
   font-family: Gilroy;
   font-weight: 200;
   src: url(../Gilroy-Regular.otf)
-    format("opentype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 300;
   src: url(../Gilroy-SemiBold.otf)
-    format("opentype");
 }
 
 .conteudo {
