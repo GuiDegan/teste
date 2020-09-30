@@ -11,14 +11,14 @@ html {
 @font-face {
   font-family: Gilroy;
   font-weight: 200;
-  src: url(Gilroy-Regular.otf)
+  src: url(/Gilroy-Regular.otf)
     format("opentype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 300;
-  src: url(Gilroy-SemiBold.otf)
+  src: url(./Gilroy-SemiBold.otf)
     format("opentype");
 }
 
@@ -30,7 +30,7 @@ html {
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(LINA_OFICIAL-01.png);
+  background-image: url(/LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
