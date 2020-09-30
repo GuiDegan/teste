@@ -6,7 +6,6 @@ html {
   font-family: MyriadPro;
   font-weight: 100;
   src: url(MyriadPro-Regular.otf)
-   format("opentype");
 }
 
 @font-face {
