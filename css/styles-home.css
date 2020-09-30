@@ -5,7 +5,8 @@ html {
 @font-face {
   font-family: MyriadPro;
   font-weight: 100;
-  src: url(MyriadPro-Regular.otf);
+  src: url(MyriadPro-Regular.otf)
+   format("opentype");
 }
 
 @font-face {
