@@ -5,19 +5,21 @@ html {
 @font-face {
   font-family: MyriadPro;
   font-weight: 100;
-  src: url(../MyriadPro-Regular.otf)
+  src: url(../_Fonts/_Texto_Corrido/MyriadPro-Regular.otf);
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 200;
-  src: url(../Gilroy-Regular.otf)
+  src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-Regular.otf)
+    format("opentype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 300;
-  src: url(../Gilroy-SemiBold.otf)
+  src: url(../_Fonts/_Títulos_e_destaques/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf)
+    format("opentype");
 }
 
 .conteudo {
@@ -28,7 +30,7 @@ html {
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(/LINA_OFICIAL-01.png);
+  background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -177,7 +179,7 @@ html {
 
   100% {
     right: 0%;
-    clip-path: inset(0 10% 0 0);
+    clip-path: inset(0 8% 0 0);
   }
 }
 
@@ -189,54 +191,77 @@ img.col-sm-7.imagem {
 .linhavertical {
   height: 10vh;
   border-right: 0.5px solid #ffffff;
-  animation-duration: 5s;
+  animation-duration: 3s;
   -webkit-animation-name: slidelinhavertical;
   -webkit-animation-iteration-count: linear;
   -webkit-animation-delay: 0s;
-  margin: -8% -20% 12% 0%;
-}
-
-.linhaverticalliquidacao {
-  animation-duration: 5s;
-  -webkit-animation-name: slidelinhaverticaltecnologia;
-  -webkit-animation-iteration-count: linear;
-  -webkit-animation-delay: 0s;
-  margin-top: -3%;
-  height: 10vh;
-}
-
-.linhaverticaltech {
-  height: 25vh;
+  margin: -9% -20% 0% 0%;
 }
 
 @-webkit-keyframes slidelinhavertical {
   from {
-    margin-top: -50%;
-    opacity: -1;
+    margin-top: -10%;
+    opacity: 1;
+    height: 1vh;
   }
 
   to {
-    margin-top: -8%;
+    margin-top: -9%;
     opacity: 1;
+    height: 10vh;
   }
+}
+
+.linhaverticalliquidacao {
+  animation-duration: 3s;
+  -webkit-animation-name: slidelinhaverticalliquidacao;
+  -webkit-animation-iteration-count: linear;
+  -webkit-animation-delay: 0s;
+  margin-top: -7%;
+  height: 10vh;
+}
+
+@-webkit-keyframes slidelinhaverticalliquidacao {
+  from {
+    margin-top: -7%;
+    opacity: 1;
+    height: 1vh;
+  }
+
+  to {
+    margin-top: -7%;
+    opacity: 1;
+    height: 10vh;
+  }
+}
+
+.linhaverticaltech {
+  margin: -34% -20% 0% 0%;
+  height: 20vh;
+  -webkit-animation-name: slidelinhaverticaltecnologia;
+  -webkit-animation-iteration-count: linear;
+  -webkit-animation-delay: 0s;
 }
 
 @-webkit-keyframes slidelinhaverticaltecnologia {
   from {
-    margin-top: -50%;
-    opacity: -1;
+    margin-top: -34%;
+    opacity: 1;
+    height: 1vh;
   }
 
   to {
-    margin-top: -3%;
+    margin-top: -34%;
     opacity: 1;
+    height: 20vh;
   }
 }
 
 .btn-saiba {
   background-color: #ffffff;
-  position: absolute;
-  left: 109%;
+  position: relative;
+  margin-top: 15%;
+  left: 5%;
   bottom: 0px;
   border-radius: 35px;
   color: #000000;
@@ -327,7 +352,7 @@ img.col-sm-7.imagem {
 
   100% {
     left: 0%;
-    clip-path: inset(0 0 0 10%);
+    clip-path: inset(0 0 0 8%);
   }
 }
 
@@ -336,9 +361,28 @@ img.col-sm-7.imagem {
   margin-bottom: 9%;
 }
 
+.linhaverticalliquidacao {
+  animation-duration: 3s;
+  animation-name: slidelinhaverticalliquidacao;
+  animation-delay: 0s;
+  margin-top: -7%;
+  height: 10vh;
+}
+
+#botao-liquidacao {
+  margin: 0.5% 0% 0% 13%;
+}
+
+.btn-saiba-tec {
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 12%;
+}
+
 /*------------------------------BOTÕES------------------------*/
 .botoes-acessos {
-  padding-top: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 9rem;
   letter-spacing: 0.2rem;
   text-align: center;
   font-weight: 100;
@@ -609,7 +653,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 37vh;
-    background-image: url("../Home_Lina_2(mobile).png");
+    background-image: url("/LINA_Elements/_Imagens/Home_Lina_2\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 11%;
@@ -620,7 +664,7 @@ footer a:hover {
     margin: 0;
     height: 37vh;
     background-position: center;
-    background-image: url("/Home_Lina_1(mobile).png");
+    background-image: url("/LINA_Elements/_Imagens/Home_Lina_1\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -629,7 +673,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 37vh;
-    background-image: url("/Home_Lina_3(mobile).png");
+    background-image: url("/LINA_Elements/_Imagens/Home_Lina_3\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -5%;
@@ -744,36 +788,179 @@ footer a:hover {
 
 @media only screen and (min-width: 1570px) {
   .linhavertical {
-    margin-bottom: 8%;
-    height: 20vh;
+    margin: -19% -20% 0% 0%;
+    height: 18vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -19%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -19%;
+      opacity: 1;
+      height: 18vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -37% -20% 0% 0%;
+    height: 26vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -37%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -37%;
+      opacity: 1;
+      height: 26vh;
+    }
   }
 
   .linhaverticalliquidacao {
-    margin-top: 0%;
-    height: 20vh;
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -7.5%;
+    height: 12vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
   }
 
   .float-left {
-    margin-left: 64%;
+    margin-left: 63.5%;
     margin-bottom: 13%;
   }
 }
 
 @media only screen and (min-width: 1680px) {
   .linhavertical {
-    margin-top: 0%;
+    margin: -19% -20% 0% 0%;
+    height: 20vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -19%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -19%;
+      opacity: 1;
+      height: 20vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -37% -20% 0% 0%;
+    height: 28.2vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -37%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -37%;
+      opacity: 1;
+      height: 28.2vh;
+    }
+  }
+
+  .linhaverticalliquidacao {
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -10%;
+    height: 18vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
   }
 
   .float-left {
-    margin-left: 64%;
+    margin-left: 63.5%;
     margin-bottom: 13%;
   }
 }
 
 @media only screen and (min-width: 1760px) {
   .linhavertical {
-    margin-top: -10%;
-    height: 23vh;
+    margin: -27% -20% 0% 0%;
+    height: 25.5vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -27%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -27%;
+      opacity: 1;
+      height: 25.5vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -38% -20% 0% 0%;
+    height: 30vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -38%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -38%;
+      opacity: 1;
+      height: 30vh;
+    }
   }
 
   .linhaverticalliquidacao {
@@ -781,71 +968,264 @@ footer a:hover {
     height: 23vh;
   }
 
+  .linhaverticalliquidacao {
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -10%;
+    height: 18vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
+  }
+
   .float-left {
-    margin-left: 64%;
+    margin-left: 63.5%;
     margin-bottom: 13%;
   }
 }
 
 @media only screen and (min-width: 1860px) {
   .linhavertical {
-    margin-top: -10%;
-    margin-bottom: 8%;
-    height: 26vh;
+    margin: -27% -20% 0% 0%;
+    height: 27vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -27%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -27%;
+      opacity: 1;
+      height: 27vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -38% -20% 0% 0%;
+    height: 32vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -38%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -38%;
+      opacity: 1;
+      height: 32vh;
+    }
   }
 
   .linhaverticalliquidacao {
-    margin-top: 0%;
-    height: 206h;
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -10%;
+    height: 20vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
   }
 
   .float-left {
-    margin-left: 64%;
+    margin-left: 63.5%;
     margin-bottom: 13%;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .linhavertical {
-    margin-top: -10%;
-    margin-bottom: 7%;
-    height: 29vh;
+    margin: -27% -20% 0% 0%;
+    height: 28vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -27%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -27%;
+      opacity: 1;
+      height: 28vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -39% -20% 0% 0%;
+    height: 34vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -39%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -38%;
+      opacity: 1;
+      height: 34vh;
+    }
   }
 
   .linhaverticalliquidacao {
-    margin-top: 0%;
-    height: 29vh;
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -10%;
+    height: 21vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
   }
 
   .float-left {
-    margin-left: 64%;
+    margin-left: 63.5%;
     margin-bottom: 13%;
   }
 }
 
 @media only screen and (min-width: 2100px) {
   .linhavertical {
-    margin-top: -10%;
-    margin-bottom: 7%;
-    height: 32vh;
+    margin: -27% -20% 0% 0%;
+    height: 31vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -27%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -27%;
+      opacity: 1;
+      height: 31vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -47% -20% 0% 0%;
+    height: 43vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -47%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -47%;
+      opacity: 1;
+      height: 43vh;
+    }
   }
 
   .linhaverticalliquidacao {
-    margin-top: 0%;
-    height: 32vh;
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -10.5%;
+    height: 24vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
   }
 
   .float-left {
-    margin-left: 64%;
+    margin-left: 63%;
     margin-bottom: 13%;
   }
 }
 
 @media only screen and (min-width: 2200px) {
   .linhavertical {
-    margin-top: -10%;
-    margin-bottom: 7%;
-    height: 35vh;
+    margin: -27% -20% 0% 0%;
+    height: 32vh;
+    border-right: 0.5px solid #ffffff;
+    animation-duration: 3s;
+    -webkit-animation-name: slidelinhavertical;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhavertical {
+    from {
+      margin-top: -27%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -27%;
+      opacity: 1;
+      height: 32vh;
+    }
+  }
+
+  .linhaverticaltech {
+    margin: -47% -20% 0% 0%;
+    height: 46vh;
+    -webkit-animation-name: slidelinhaverticaltecnologia;
+    -webkit-animation-iteration-count: linear;
+    -webkit-animation-delay: 0s;
+  }
+
+  @-webkit-keyframes slidelinhaverticaltecnologia {
+    from {
+      margin-top: -47%;
+      opacity: 1;
+      height: 1vh;
+    }
+
+    to {
+      margin-top: -47%;
+      opacity: 1;
+      height: 46vh;
+    }
   }
 
   .linhaverticalliquidacao {
@@ -853,8 +1233,20 @@ footer a:hover {
     height: 35vh;
   }
 
+  .linhaverticalliquidacao {
+    animation-duration: 3s;
+    animation-name: slidelinhaverticalliquidacao;
+    animation-delay: 0s;
+    margin-top: -11%;
+    height: 26vh;
+  }
+
+  #botao-liquidacao {
+    margin: 0% 0% 0% 13%;
+  }
+
   .float-left {
-    margin-left: 64%;
+    margin-left: 63%;
     margin-bottom: 13%;
   }
 }
