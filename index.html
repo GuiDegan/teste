@@ -1,244 +1,113 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <html lang="pt-br">
-    <meta charset="utf-8" />
-    <meta name="description" content="Página inicial Lina.">
-    <link
-      rel="shortcut icon"
-      href="favicon.ico"
-      type="image/x-icon"
-    />
-    <link rel="apple-touch-icon" href="LINA_Elements/_favIcon/apple-touch-icon.png">
-    <title>Linapay - Início</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="apple-touch-icon" href="/example.png">
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript" src="javascript/javascript-home.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link href="css/styles-home.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <main class="conteudo d-flex">
-      <div class="sidebar hide-m"></div>
-      <div class="col-sm-12 col-md-11 nomargin">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand logo_lina" aria-label="Logo Lina"></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-times navbar-toggler-icon-close d-none"></i>
-            <i class="fas fa-bars navbar-toggler-icon"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#" aria-label="Sobre">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="produtos.html" aria-label="Produtos">Produtos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contato" aria-label="Contato">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" aria-label="FAQ">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <button class="btn_login">Login</button>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <img class="imagem-m hide-d" alt="Imagem de uma cidade" />
-        <section class="container somos col-10">
-          <div class="textos">
-            <h2 class="col-1 col-sm-6 titulo1_esquerda">somos</h2>
-            <h2 class="col-1 col-sm-6 titulo2_esquerda">infratech</h2>
-          </div>
-          <div class="row reverse-column">
-            <div class="texto col-sm-4 text-right">
-              <p class="paragrafo" style="padding: 1rem 0rem 0rem 6rem">
-                A Lina é a mais nova infraestrutura de pagamentos do mercado
-                brasileiro. Somos um hub de conectividade para FinTechs e
-                negócios digitais, e nascemos com o propósito de transformar o
-                Sistema Financeiro Nacional, promovendo interoperabilidade e
-                convivência entre os meios atuais e os novos ecossistemas de
-                pagamentos instantâneos PIX e Open Banking.
-              </p>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div
-                      class="modal fade"
-                      id="modalsomos"
-                      tabindex="-1"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-body">
-                            <form>
-                              <div class="row">
-                                <div class="form-group col-sm-9">
-                                  <h1>infratech</h1>
-                                  <h5>
-                                    A Lina conecta FinTechs e negócios digitais
-                                    ao arcabouço tecnológico do Sistema de
-                                    Pagamentos Brasileiro (SPB), do Sistema de
-                                    Pagamentos Instantâneos (SPI/PIX) e do
-                                    Ecossistema Brasileiro de Open Banking, de
-                                    forma rápida, eficiente e segura, promovendo
-                                    a verdadeira interoperabilidade e
-                                    convivência harmoniosa entre os atuais e os
-                                    novos meios de pagamento. Nossa tecnologia e
-                                    processos operacionais incorporam padrões
-                                    internacionais da industria financeira, em
-                                    conformidade com as recomendações e
-                                    princípios dos organismos de autorregulação
-                                    e supervisão do mercado financeiro global,
-                                    notadamenteBIS, IOSCO e ISO TC68.
-                                  </h5>
-                                </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <html lang="pt-br">
+  <meta charset="utf-8" />
+  <meta name="description" content="Página inicial Lina.">
+  <link rel="shortcut icon" href="./LINA_Elements/_favIcon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="LINA_Elements/_favIcon/apple-touch-icon.png">
+  <title>Linapay - Início</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="apple-touch-icon" href="/example.png">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript/javascript-home.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link href="css/styles-home.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main class="conteudo d-flex">
+    <div class="sidebar hide-m"></div>
+    <div class="col-sm-12 col-md-11 nomargin">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand logo_lina" aria-label="Logo Lina"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-times navbar-toggler-icon-close d-none"></i>
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" aria-label="Sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html" aria-label="Produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato" aria-label="Contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" aria-label="FAQ">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn_login">Login</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <img class="imagem-m hide-d" alt="Imagem de uma cidade" />
+      <section class="container somos col-10">
+        <div class="textos">
+          <h2 class="col-1 col-sm-6 titulo1_esquerda">somos</h2>
+          <h2 class="col-1 col-sm-6 titulo2_esquerda">infratech</h2>
+        </div>
+        <div class="row reverse-column">
+          <div class="texto col-sm-4 text-right">
+            <p class="paragrafo" style="padding: 1rem 0rem 0rem 6rem">
+              A Lina é a mais nova infraestrutura de pagamentos do mercado
+              brasileiro. Somos um hub de conectividade para FinTechs e
+              negócios digitais, e nascemos com o propósito de transformar o
+              Sistema Financeiro Nacional, promovendo interoperabilidade e
+              convivência entre os meios atuais e os novos ecossistemas de
+              pagamentos instantâneos PIX e Open Banking.
+            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="modal fade" id="modalsomos" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <form>
+                            <div class="row">
+                              <div class="form-group col-sm-9">
+                                <h1>infratech</h1>
+                                <h5>
+                                  A Lina conecta FinTechs e negócios digitais
+                                  ao arcabouço tecnológico do Sistema de
+                                  Pagamentos Brasileiro (SPB), do Sistema de
+                                  Pagamentos Instantâneos (SPI/PIX) e do
+                                  Ecossistema Brasileiro de Open Banking, de
+                                  forma rápida, eficiente e segura, promovendo
+                                  a verdadeira interoperabilidade e
+                                  convivência harmoniosa entre os atuais e os
+                                  novos meios de pagamento. Nossa tecnologia e
+                                  processos operacionais incorporam padrões
+                                  internacionais da industria financeira, em
+                                  conformidade com as recomendações e
+                                  princípios dos organismos de autorregulação
+                                  e supervisão do mercado financeiro global,
+                                  notadamenteBIS, IOSCO e ISO TC68.
+                                </h5>
                               </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
+                            </div>
+                          </form>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img
-              class="col-sm-7 imagem anim-somos_tec hide-m"
-              src="Home1-RecorteEsquerdo.png"
-              alt="Imagem de uma cidade"
-            />
-            <div class="col-sm-1 retangulo hide-m"></div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="linhavertical hide-m"></div>
-              <button type="button" class="btn btn-primary btn-saiba" data-toggle="modal" data-target="#modalsomos">
-                <b>SAIBA MAIS</b>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </section>
-        <section class="container liquidacao col-10">
-          <img class="hide-d imagem-mobile-liquidacao"/>
-          <h2 class="col-sm-12 titulo1_direita">descomplicamos a</h2>
-          <h2 class="col-sm-12 titulo2_direita">liquidação</h2>
-          <div class="row">
-            <div
-              class="col-sm-1 retangulo hide-m"
-              style="margin-left: 8%"
-            ></div>
-            <img
-              class="col-sm-7 hide-m imagem-liquidacao anim-liquidacao"
-              src="Home2-RecorteDireito.png"
-              alt="Imagem de uma mulher utilizando um Notebook"
-            />
-            <div class="texto col-sm-4 col-8">
-              <p class="paragrafo text-left">
-                A combinação ÚNICA de expertise técnica, domínio do negócio e
-                invoação tecnológica, capaz de possibilitar processos de
-                liquidação financeira inteligentes e simplificados.Liquidamos
-                pagamentos de forma intuitiva e inovadora, não importa o
-                instrumento!
-              </p>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div
-                      class="modal fade"
-                      id="modalliquidacao"
-                      tabindex="-1"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-body">
-                            <form>
-                              <div class="row">
-                                <div class="form-group col-sm-9">
-                                  <h1>infratech</h1>
-                                  <h5>
-                                    Nosso time de fundadores é composto por
-                                    renomados e experientes profissionais das
-                                    áreas de tecnologia e negócios do mercado
-                                    financeiro brasileiro, com experiência única
-                                    em processos decompensação, liquidação e
-                                    reconciliação de pagamentos, e com anos de
-                                    atuação de destaque junto às principais
-                                    Infraestruturas do Mercado Financeiro
-                                    (IMF's) do Brasil. Combinamos expertise
-                                    técnica, domínio do negócio e inovação
-                                    tecnológica, para entregar soluções de
-                                    compensação, liquidação e reconciliação de
-                                    pagamentos, de forma simples, eficiente e
-                                    segura!.
-                                  </h5>
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
+                        <div class="modal-footer">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -247,76 +116,77 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="linhavertical linhaverticalliquidacao hide-m float-left"></div>
-              <button type="button" class="btn btn-primary btn-saiba" style="left: 62%; bottom: 42%" id="botao-liquidacao" data-toggle="modal"
-                data-target="#modalliquidacao">
-                <b>SAIBA MAIS</b>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
-                </svg>
-              </button>
-            </div>
+          <img class="col-sm-7 imagem anim-somos_tec hide-m" src="LINA_Elements/_Imagens/Home_Lina_2.png"
+            alt="Imagem de uma cidade" />
+          <div class="col-sm-1 retangulo hide-m"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="linhavertical hide-m" style="margin-bottom: 0px"></div>
           </div>
-        </section>
-        <section class="container somos col-10">
-          <img class="hide-d imagem-mobile-tecnologia" />
-          <div class="textos">
-            <h2 class="col-12 col-sm-10 titulo1_esquerda liquidacao-mobile">apaixonados por</h2>
-            <h2 class="col-12 col-sm-6 titulo2_esquerda liquidacao-mobile2" style="padding-bottom: 0rem;">tecnologia</h2>
+          <div class="col-sm-4">
+            <button type="button" class="btn btn-primary btn-saiba" data-toggle="modal" data-target="#modalsomos">
+              <b>SAIBA MAIS</b>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+              </svg>
+            </button>
           </div>
-          <div class="row reverse-column">
-            <div class="texto col-sm-4 text-right">
-              <p class="paragrafo" style="padding: 2rem 0rem 0rem 6rem">
-                Nos orgulhamos de ser uma empresa de tecnologia e somos
-                apaixonados por nossas soluções. E é exatamente por isso que
-                integrar com a Lina é um processo fácil e transparente. É sempre
-                um prazer falar dos nossos serviços e das nossas APIs!
-              </p>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="modal fade" id="modaltecnologia" tabindex="-1" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-body">
-                            <form>
-                              <div class="row">
-                                <div class="form-group col-sm-9">
-                                  <h1>infratech</h1>
-                                  <h5>
-                                    Fornecemos API’s projetadas para
-                                    desenvolvedores e engenheiros de software,
-                                    otimizando os processos de integração
-                                    eonboarding, e nossa infraestrutura
-                                    tecnológica garante alta disponibilidade às
-                                    nossas aplicações, escalabilidade para os
-                                    serviços dos nossos clientes e total
-                                    segurança ás informações e dados trafegados
-                                    em nossos serviços. Temos orgulho da nossa
-                                    equipe ágil e de alto desempenho, atualmente
-                                    composta por dez profissionais
-                                    multidisciplinares, dos quais sete compõem a
-                                    equipe técnica, totalmente dedicada ao
-                                    desenvolvimento e aprimoramento das nossas
-                                    soluções. Nosso processo de desenvolvimento
-                                    de software nos permite construir, testar e
-                                    implementar soluções de forma ágil e
-                                    eficiente, para assim entregar valor aos
-                                    nossos clientes, dentro do prazo!
-                                  </h5>
-                                </div>
+        </div>
+      </section>
+      <section class="container liquidacao col-10">
+        <img class="hide-d imagem-mobile-liquidacao" />
+        <h2 class="col-sm-12 titulo1_direita">descomplicamos a</h2>
+        <h2 class="col-sm-12 titulo2_direita">liquidação</h2>
+        <div class="row">
+          <div class="col-sm-1 retangulo hide-m" style="margin-left: 8%"></div>
+          <img class="col-sm-7 hide-m imagem-liquidacao anim-liquidacao" src="LINA_Elements/_Imagens/Home_Lina_1.png"
+            alt="Imagem de uma mulher utilizando um Notebook" />
+          <div class="texto col-sm-4 col-8">
+            <p class="paragrafo text-left">
+              A combinação ÚNICA de expertise técnica, domínio do negócio e
+              invoação tecnológica, capaz de possibilitar processos de
+              liquidação financeira inteligentes e simplificados.Liquidamos
+              pagamentos de forma intuitiva e inovadora, não importa o
+              instrumento!
+            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="modal fade" id="modalliquidacao" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <form>
+                            <div class="row">
+                              <div class="form-group col-sm-9">
+                                <h1>infratech</h1>
+                                <h5>
+                                  Nosso time de fundadores é composto por
+                                  renomados e experientes profissionais das
+                                  áreas de tecnologia e negócios do mercado
+                                  financeiro brasileiro, com experiência única
+                                  em processos decompensação, liquidação e
+                                  reconciliação de pagamentos, e com anos de
+                                  atuação de destaque junto às principais
+                                  Infraestruturas do Mercado Financeiro
+                                  (IMF's) do Brasil. Combinamos expertise
+                                  técnica, domínio do negócio e inovação
+                                  tecnológica, para entregar soluções de
+                                  compensação, liquidação e reconciliação de
+                                  pagamentos, de forma simples, eficiente e
+                                  segura!.
+                                </h5>
                               </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -324,46 +194,123 @@
                 </div>
               </div>
             </div>
-            <img class="col-sm-7 imagem anim-somos_tec hide-m" src="Home_Lina_3.png"
-              alt="Imagem de uma cidade" />
-            <div class="col-sm-1 retangulo hide-m"></div>
           </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="linhavertical hide-m"></div>
-              <button type="button" class="btn btn-primary btn-saiba" data-toggle="modal" data-target="#modaltecnologia">
-                <b>SAIBA MAIS</b>
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
-                </svg>
-              </button>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="linhavertical linhaverticalliquidacao hide-m float-left"></div>
+            <button type="button" class="btn btn-primary btn-saiba" id="botao-liquidacao"
+              data-toggle="modal" data-target="#modalliquidacao">
+              <b>SAIBA MAIS</b>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="container somos col-10">
+        <img class="hide-d imagem-mobile-tecnologia" />
+        <div class="textos">
+          <h2 class="col-12 col-sm-10 titulo1_esquerda liquidacao-mobile">apaixonados por</h2>
+          <h2 class="col-12 col-sm-6 titulo2_esquerda liquidacao-mobile2" style="padding-bottom: 0rem;">tecnologia</h2>
+        </div>
+        <div class="row reverse-column">
+          <div class="texto col-sm-4 text-right">
+            <p class="paragrafo" style="padding: 2rem 0rem 0rem 6rem">
+              Nos orgulhamos de ser uma empresa de tecnologia e somos
+              apaixonados por nossas soluções. E é exatamente por isso que
+              integrar com a Lina é um processo fácil e transparente. É sempre
+              um prazer falar dos nossos serviços e das nossas APIs!
+            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="modal fade" id="modaltecnologia" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <form>
+                            <div class="row">
+                              <div class="form-group col-sm-9">
+                                <h1>infratech</h1>
+                                <h5>
+                                  Fornecemos API’s projetadas para
+                                  desenvolvedores e engenheiros de software,
+                                  otimizando os processos de integração
+                                  eonboarding, e nossa infraestrutura
+                                  tecnológica garante alta disponibilidade às
+                                  nossas aplicações, escalabilidade para os
+                                  serviços dos nossos clientes e total
+                                  segurança ás informações e dados trafegados
+                                  em nossos serviços. Temos orgulho da nossa
+                                  equipe ágil e de alto desempenho, atualmente
+                                  composta por dez profissionais
+                                  multidisciplinares, dos quais sete compõem a
+                                  equipe técnica, totalmente dedicada ao
+                                  desenvolvimento e aprimoramento das nossas
+                                  soluções. Nosso processo de desenvolvimento
+                                  de software nos permite construir, testar e
+                                  implementar soluções de forma ágil e
+                                  eficiente, para assim entregar valor aos
+                                  nossos clientes, dentro do prazo!
+                                </h5>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-        <section class="container botoes-acessos">
-          <button type="button" class="col-sm-4 btn-docs btn btn-primary">
-            faça parte!
-          </button>
-          <button type="button" class="col-sm-4 btn-docs btn btn-primary">
-            documentação API
-          </button>
-        </section>
-      </div>
-    </main>
-    <footer id="contato">
-      <a href="#"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.linkedin.com/company/lina-pay/" aria-label="Linkedin" rel="noopener" target="_blank"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <a href="https://www.instagram.com/lina.infratech/"
-        aria-label="Instagram"><i class="fab fa-instagram-square"></i
-      ></a>
-    </footer>
-  </body>
-  <script
-    type="text/javascript"
-    src="javascript/javascript-home-mobile.js"
-  ></script>
+          <img class="col-sm-7 imagem anim-somos_tec hide-m" src="LINA_Elements/_Imagens/Home_Lina_3.png"
+            alt="Imagem de uma cidade" />
+          <div class="col-sm-1 retangulo hide-m"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="linhavertical linhaverticaltech hide-m"></div>
+          </div>
+          <div class="col-sm-4"> 
+            <button type="button" class="btn btn-primary btn-saiba btn-saiba-tec" data-toggle="modal" data-target="#modaltecnologia">
+              <b>SAIBA MAIS</b>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="container botoes-acessos">
+        <button type="button" class="col-sm-4 btn-docs btn btn-primary">
+          faça parte!
+        </button>
+        <button type="button" class="col-sm-4 btn-docs btn btn-primary">
+          documentação API
+        </button>
+      </section>
+    </div>
+  </main>
+  <footer id="contato">
+    <a href="#"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.linkedin.com/company/lina-pay/" aria-label="Linkedin" rel="noopener" target="_blank"><i
+        class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/lina.infratech/" aria-label="Instagram"><i
+        class="fab fa-instagram-square"></i></a>
+  </footer>
+</body>
+<script type="text/javascript" src="javascript/javascript-home-mobile.js"></script>
+
 </html>
