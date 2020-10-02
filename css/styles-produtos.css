@@ -42,6 +42,21 @@
   left: 4%;
   padding: 0;
   width: 15vw;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: static;
+}
+
+@keyframes slidein {
+  from {
+    left: 20%;
+    width: 300%;
+  }
+
+  to {
+    left: 4%;
+    width: 100%;
+  }
 }
 
 h2 {
@@ -74,6 +89,15 @@ h2 {
   padding-left: 5rem;
 }
 
+.js .anim-liquidacao {
+  opacity: 0;
+}
+
+.js .anim-liquidacao-init {
+  opacity: 1;
+  animation-name: slideinliq;
+}
+
 .imagem_bass {
   position: absolute;
   z-index: 1;
@@ -81,6 +105,20 @@ h2 {
   padding-top: 3rem;
   height: -webkit-fill-available;
   height: 18%;
+  animation-duration: 3s;
+  animation-iteration-count: static;
+}
+
+@keyframes slideinliq {
+  from {
+    left: -2%;
+    width: 100%;
+  }
+
+  to {
+    left: 7%;
+    width: 100%;
+  }
 }
 /*------------------------------------------------------ PRODUTO3 ------------------------------------------------------*/
 .produto3 {
@@ -95,11 +133,36 @@ h2 {
   position: absolute;
 }
 
+.js .anim-somos_tec {
+  opacity: 0;
+}
+
+.js .anim-somos_tec-init {
+  opacity: 1;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-name: slideinsomos_tec;
+  -webkit-animation-delay: 0s;
+}
+
 .imagem_sss {
   z-index: 1;
   position: relative;
   left: 4%;
   padding: 0;
+  animation-duration: 3s;
+  animation-iteration-count: static;
+}
+
+@keyframes slideinsomos_tec {
+  from {
+    left: 20%;
+    width: 300%;
+  }
+
+  to {
+    left: 4%;
+    width: 100%;
+  }
 }
 /*------------------------------------------------------ GLOBAL ------------------------------------------------------*/
 .produto_geral {
@@ -151,7 +214,7 @@ ul li {
 }
 /*------------------------------------------------------ FAÇA PARTE ------------------------------------------------------*/
 .facaparte {
-  margin-top: 5%;
+  padding-top: 6.5rem;
 }
 
 .facaparte_texto {
@@ -177,6 +240,10 @@ label input {
 .form-control {
   height: 9vh;
   width: 41vw;
+}
+
+.botoes-acessos {
+  padding-bottom: 6rem;
 }
 
 .btn-docs {
@@ -266,7 +333,7 @@ label input {
   .imagem_bass {
     position: absolute;
     z-index: 1;
-    left: -3%;
+    left: 30%;
     padding-top: 3rem;
     height: 10%;
     width: auto;
