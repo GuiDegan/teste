@@ -5,26 +5,30 @@
 }
 
 .titulos {
-  padding-top: 10rem;
+  padding-top: 11rem;
 }
 
 .titulo1_esquerda {
-  font-size: 60px;
+  font-size: 62px;
   margin: 0;
-  padding-left: 2rem;
+  padding-left: 0.5rem;
 }
 
 .peso {
-  font-size: 60px;
+  font-size: 62px;
   font-weight: 400;
 }
 /*------------------------------------------------------ PRODUTO1 ------------------------------------------------------*/
+.produto1 {
+  margin-top: 6%;
+}
+
 .produto1_titulo2esquerda {
-  padding-left: 6rem !important;
+  padding-left: 5.7rem !important;
 }
 
 .subitulo_produto1 {
-  padding-left: 5rem;
+  padding-left: 5.7rem !important;
 }
 
 .row_prod1 {
@@ -39,9 +43,9 @@
 .imagem_negocios {
   z-index: 1;
   position: relative;
-  left: 4%;
   padding: 0;
-  width: 15vw;
+  margin-top: -15%;
+  margin-left: 70%;
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: static;
@@ -49,12 +53,12 @@
 
 @keyframes slidein {
   from {
-    left: 20%;
+    margin-left: 80%;
     width: 300%;
   }
 
   to {
-    left: 4%;
+    margin-left: 70%;
     width: 100%;
   }
 }
@@ -193,7 +197,7 @@ h2 {
 .titulo2_esquerda {
   font-size: 40px;
   color: #00908c;
-  line-height: 0.9;
+  line-height: 1;
   padding-left: 5rem;
 }
 
@@ -210,7 +214,12 @@ ul {
 ul li {
   line-height: 2rem;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
+  color: #00908c;
+}
+
+ul li span {
+  color: #000000;
 }
 /*------------------------------------------------------ FAÇA PARTE ------------------------------------------------------*/
 .facaparte {
