@@ -40,6 +40,10 @@
   position: absolute;
 }
 
+.col-sm-5 {
+  max-width: 38.666667% !important;
+}
+
 .imagem_negocios {
   z-index: 1;
   position: relative;
