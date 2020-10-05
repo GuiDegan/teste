@@ -25,6 +25,7 @@
 
 .produto1_titulo2esquerda {
   padding-left: 5.7rem !important;
+  padding-bottom: 1rem;
 }
 
 .subitulo_produto1 {
@@ -203,6 +204,7 @@ h2 {
   color: #00908c;
   line-height: 1;
   padding-left: 5rem;
+  padding-bottom: 1rem;
 }
 
 .produtos_subtitulo {
