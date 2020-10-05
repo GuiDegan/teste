@@ -399,6 +399,14 @@ img.col-sm-7.imagem {
   background-color: #00908c;
 }
 
+.btn-docs a {
+  color: #ffffff;
+}
+
+.btn-docs a:hover {
+  text-decoration: none;
+}
+
 .btn-docs:hover {
   background-color: #00cdc2 !important;
 }
