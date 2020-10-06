@@ -41,14 +41,9 @@
   position: absolute;
 }
 
-.col-sm-5 {
-  max-width: 38.666667% !important;
-}
-
 .imagem_negocios {
   z-index: 1;
   position: relative;
-  padding: 0;
   margin-top: -15%;
   margin-left: 70%;
   animation-duration: 3s;
