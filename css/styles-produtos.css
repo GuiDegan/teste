@@ -269,7 +269,7 @@ label input {
   }
 
   .facaparte {
-    margin-top: 40%;
+    margin-top: 30%;
   }
 
   .titulo2_esquerda {
@@ -278,6 +278,7 @@ label input {
     line-height: 0.9;
     padding-left: 3rem !important;
     padding-top: 2rem;
+    padding-right: 9rem;
   }
 
   .produtos_titulo {
@@ -315,15 +316,15 @@ label input {
   .imagem_negocios {
     position: absolute;
     z-index: 1;
-    padding: 0;
-    width: 50vw;
-    height: 25vh;
-    left: 67%;
-    right: 5%;
+    width: 100%;
+    height: 45%;
+    margin-top: 0%;
+    left: -10%;
+    animation-duration: 0s;
   }
 
   ul {
-    padding-left: 4rem;
+    padding-left: 3.3rem;
   }
 
   .produto2 {
@@ -336,21 +337,24 @@ label input {
   }
 
   .produto3_ul {
-    padding-left: 4.5rem;
+    padding-left: 4.43rem;
+    padding-right: 15px;
   }
 
   .imagem_bass {
     position: absolute;
     z-index: 1;
-    left: 30%;
-    padding-top: 3rem;
+    left: -3%;
+    padding-top: 4rem;
     height: 10%;
     width: auto;
     margin-top: 5rem;
+    animation-duration: 0s !important;
   }
 
   .imagem_sss {
-    margin-top: 55%;
+    margin-top: 48%;
+    animation-duration: 0s !important;
   }
 
   .produto3 {
@@ -358,11 +362,11 @@ label input {
   }
 
   .facaparte_texto {
-    left: 8%;
+    text-align: center;
   }
 
   .facaparte_texto2 {
-    left: 6%;
+    text-align: center;
   }
 
   label input {
