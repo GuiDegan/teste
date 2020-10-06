@@ -81,7 +81,7 @@ h2 {
 }
 
 .justify-content-center {
-  padding-left: 5.3rem;
+  padding-left: 3.3rem;
 }
 
 .produto2_titulo {
@@ -213,9 +213,10 @@ ul {
 }
 
 ul li {
-  line-height: 2rem !important;
-  font-weight: 600 !important;
-  font-size: 16px !important;
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 16px;
+  color: #00908c;
 }
 
 ul li span {
@@ -228,7 +229,6 @@ ul li span {
 
 .facaparte_texto {
   font-size: 44px;
-  padding-left: 3rem;
   font-family: Gilroy;
   font-weight: 100;
   margin: 0;
@@ -237,7 +237,6 @@ ul li span {
 .facaparte_texto2 {
   margin-top: -2%;
   font-size: 60px;
-  padding-left: 3rem;
   font-family: Gilroy;
 }
 
