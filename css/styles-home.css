@@ -34,7 +34,7 @@ body {
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(/LINA_OFICIAL-01.png);
+  background-image: url(LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -685,7 +685,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 37vh;
-    background-image: url("Home_Lina_3\(mobile\).png");
+    background-image: url("/Home_Lina_3\(mobile\).png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -5%;
@@ -1065,8 +1065,8 @@ footer a:hover {
 
 @media only screen and (min-width: 1920px) {
   .linhavertical {
-    margin: -27% -20% 0% 0%;
-    height: 19vh;
+    margin: -29% -20% 0% 0%;
+    height: 21vh;
     border-right: 0.5px solid #ffffff;
     animation-duration: 3s;
     -webkit-animation-name: slidelinhavertical;
@@ -1195,8 +1195,8 @@ footer a:hover {
 
 @media only screen and (min-width: 2200px) {
   .linhavertical {
-    margin: -27% -20% 0% 0%;
-    height: 19.5vh;
+    margin: -38% -20% 0% 0%;
+    height: 25.5vh;
     border-right: 0.5px solid #ffffff;
     animation-duration: 3s;
     -webkit-animation-name: slidelinhavertical;
