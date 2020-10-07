@@ -410,3 +410,27 @@ label input {
     padding-right: 2rem;
   }
 }
+
+@media only screen and (min-width: 1680px) {
+  .titulos {
+    padding-top: 12rem;
+  }
+}
+
+@media only screen and (min-width: 1760px) {
+  .titulos {
+    padding-top: 15rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .titulos {
+    padding-top: 15rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  .titulos {
+    padding-top: 22rem;
+  }
+}
