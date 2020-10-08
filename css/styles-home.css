@@ -507,6 +507,11 @@ footer a:hover {
 
 /*------------------------------MOBILE-----------------------*/
 @media only screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -582,7 +587,8 @@ footer a:hover {
   }
 
   .paragrafo {
-    font-size: 12px;
+    font-size: 14px;
+    /*font-size: clamp(1rem, 1.05vw, 5rem);*/
     /*padding: 1rem 0rem 0rem 0rem !important;*/
     margin: 0% 8% 0% 0%;
   }
@@ -617,6 +623,10 @@ footer a:hover {
   .liquidacao-mobile2 {
     font-size: 58px !important;
     padding-left: 2rem !important;
+  }
+
+  .liquidacao p {
+    /*font-size: clamp(1rem, 1.05vw, 5rem) !important;*/
   }
 
   .btn-saiba {
@@ -769,6 +779,16 @@ footer a:hover {
 
   .botoes-acessos {
     padding-top: 3rem;
+  }
+
+  .modal-content {
+    overflow-y: hidden;
+    width: 100vw;
+    height: 89vh;
+  }
+
+  .modal-tecnolgia-m {
+    height: 105vh;
   }
 
   .modal-dialog {
