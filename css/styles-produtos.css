@@ -101,6 +101,15 @@ h2 {
   padding-left: 5rem;
 }
 
+  .produto2_ul {
+    padding-top: 1rem;
+    padding-left: 3.rem;
+  }
+
+  .produto2_ul li {
+    line-height: 1.65rem;
+  }
+
 .js .anim-liquidacao {
   opacity: 0;
 }
@@ -472,9 +481,13 @@ label input {
   }
 
   .produto2_ul {
-    padding-top: 3rem;
+    padding-top: 2rem;
     margin-left: 20%;
     line-height: 2.5rem;
+  }
+
+    .produto2_ul li {
+    line-height: 2rem;
   }
 
   .imagem_negocios {
@@ -509,6 +522,10 @@ label input {
     margin-left: 0.5%;
   }
 
+    .produto2_ul li {
+    line-height: 2.2rem;
+  }
+
     .produto2_ul {
     margin-left: 20%;
     line-height: 2.5rem;
@@ -528,34 +545,42 @@ label input {
     padding-left: 11.7rem;
   }
 
+    .produto2_ul li {
+    line-height: 1.65rem;
+  }
+
+  .produto2_ul li {
+    line-height: 2.6rem;
+  }
+
   ul li {
     line-height: 2.5rem;
     margin-left: 0.8%;
   }
 }
 
-@media only screen and (min-width: 2200px) {
-  .titulos {
-    padding-top: 22rem;
-  }
-
-    .produto2_ul {
-    padding-top: 3rem;
-    }
-  
-    .subtitulo {
-    left: 31.2%;
-  }
-
-    .titulo2_esquerda {
-      margin-left: 20%;
+  @media only screen and (min-width: 2200px) {
+    .titulos {
+      padding-top: 22rem;
     }
 
-    .imagem_negocios {
-    margin-top: -8%; 
-  }
+      .produto2_ul {
+      padding-top: 3rem;
+      }
+    
+      .subtitulo {
+      left: 31.2%;
+    }
 
-  ul li {
-    line-height: 3rem;
+      .titulo2_esquerda {
+        margin-left: 20%;
+      }
+
+      .imagem_negocios {
+      margin-top: -8%; 
+    }
+
+    ul li {
+      line-height: 3rem;
+    }
   }
-}
