@@ -34,7 +34,7 @@ body {
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(../LINA_OFICIAL-01.png);
+  background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -587,16 +587,17 @@ footer a:hover {
   }
 
   .paragrafo {
-    font-size: 14px;
-    /*font-size: clamp(1rem, 1.05vw, 5rem);*/
-    /*padding: 1rem 0rem 0rem 0rem !important;*/
-    margin: 0% 8% 0% 0%;
+    font-size: clamp(1rem, 1.05vw, 5rem);
+    margin: 0% 0% 0% 0%;
+    padding-left: 2rem;
+    padding-right: 1.5rem !important;
   }
 
   #botao-liquidacao {
     left: 0 !important;
     bottom: 0 !important;
-    margin-left: 25%;
+    margin-left: 28%;
+    margin-top: 10%;
   }
 
   .paragrafo_tec {
@@ -612,16 +613,17 @@ footer a:hover {
 
   .titulo2_esquerda {
     padding-left: 2rem !important;
-    font-size: 70px !important;
+    /*font-size: 70px !important;*/
+    font-size: clamp(1rem, 19vw, 5rem);
   }
 
   .liquidacao-mobile {
-    font-size: 36px !important;
+    font-size: clamp(1rem, 10vw, 5rem) !important;
     padding-top: 2rem !important;
   }
 
   .liquidacao-mobile2 {
-    font-size: 58px !important;
+    font-size: clamp(1rem, 16vw, 5rem);
     padding-left: 2rem !important;
   }
 
@@ -630,7 +632,7 @@ footer a:hover {
   }
 
   .btn-saiba {
-    left: 24%;
+    left: 27%;
     background-color: #ffffff;
     position: relative;
     border-radius: 35px;
@@ -638,7 +640,7 @@ footer a:hover {
     border: none;
     z-index: 1;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     min-width: 180px;
     margin-top: 10%;
@@ -704,8 +706,9 @@ footer a:hover {
 
   .titulo1_direita {
     padding-top: 2rem;
-    padding-right: 2rem !important;
+    padding-right: 1.5rem !important;
     font-size: 34px !important;
+    font-size: clamp(1rem, 9.3vw, 5rem) !important;
   }
 
   .liquidacao {
@@ -715,21 +718,20 @@ footer a:hover {
   }
 
   .titulo2_direita {
-    padding-right: 2rem !important;
-    font-size: 60px !important;
+    padding-right: 1.5rem !important;
+    font-size: clamp(1rem, 16.5vw, 5rem);
   }
 
   .liquidacao p {
-    font-size: 50px;
-    font-size: 12px;
+    font-size: clamp(1rem, 1.05vw, 5rem);
     padding: 0rem !important;
     text-align: left;
-    padding-left: 3rem !important;
+    padding-left: 2.8rem !important;
   }
 
-  .liquidacao button {
+  /*.liquidacao button {
     margin-left: 50%;
-  }
+  }*/
 
   .tecnologia {
     padding-top: 2rem;
