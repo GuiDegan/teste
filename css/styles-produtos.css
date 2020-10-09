@@ -1,7 +1,8 @@
 /*------------------------------------------------------- TÍTULO -------------------------------------------------------*/
-  html, body {
-    overflow-x: hidden; 
-  }
+html,
+body {
+  overflow-x: hidden;
+}
 
 .conteudo {
   background-color: #44b9b7;
@@ -101,14 +102,13 @@ h2 {
   padding-left: 5rem;
 }
 
-  .produto2_ul {
-    padding-top: 1rem;
-    padding-left: 3.rem;
-  }
+.produto2_ul {
+  padding-top: 1rem;
+}
 
-  .produto2_ul li {
-    line-height: 1.65rem;
-  }
+.produto2_ul li {
+  line-height: 1.65rem;
+}
 
 .js .anim-liquidacao {
   opacity: 0;
@@ -156,9 +156,9 @@ h2 {
   position: absolute;
 }
 
-  .titulo_esquerda_sss {
-    padding-left: 2.5rem !important;
-  }
+.titulo_esquerda_sss {
+  padding-left: 2.5rem !important;
+}
 
 .js .anim-somos_tec {
   opacity: 0;
@@ -226,6 +226,8 @@ h2 {
 }
 
 .produtos_subtitulo {
+  color: #000000;
+  font-weight: 500;
   padding-left: 3.5rem;
   font-size: clamp(0rem, 1.05vw, 5rem);
 }
@@ -236,7 +238,7 @@ ul {
 
 ul li {
   line-height: 1.9rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: clamp(0rem, 1.05vw, 5rem);
   color: #00908c;
 }
@@ -283,8 +285,9 @@ label input {
 /*-------------------------------------------------------- MOBILE --------------------------------------------------------*/
 
 @media only screen and (max-width: 768px) {
-  html, body {
-    overflow-x: hidden; 
+  html,
+  body {
+    overflow-x: hidden;
   }
 
   .titulos {
@@ -292,8 +295,8 @@ label input {
   }
 
   .produto1_titulo2esquerda {
-  padding-left: 3.1rem !important;
-}
+    padding-left: 3.1rem !important;
+  }
 
   .titulo1_esquerda {
     font-size: 44px !important ;
@@ -301,15 +304,13 @@ label input {
     padding-top: 0rem;
   }
 
-
   .produtos_dimensoes {
-  height: 100% !important;
-}
+    height: 100% !important;
+  }
 
-    .produto1_dimensoes {
-  height: 60vh !important;
-}
-
+  .produto1_dimensoes {
+    height: 60vh !important;
+  }
 
   .produto1 {
     padding-left: 1rem;
@@ -412,7 +413,7 @@ label input {
     animation-duration: 0s !important;
   }
 
-    .titulo_esquerda_sss {
+  .titulo_esquerda_sss {
     padding-left: 2.2rem !important;
   }
 
@@ -473,20 +474,20 @@ label input {
   }
 
   .titulo2_esquerda {
-    padding-left: 10.3rem
+    padding-left: 6rem;
   }
 
   .subtitulo {
-    left: 33%;
+    left: 26%;
   }
 
   .produto2_ul {
     padding-top: 2rem;
-    margin-left: 20%;
+    margin-left: 8.5%;
     line-height: 2.5rem;
   }
 
-    .produto2_ul li {
+  .produto2_ul li {
     line-height: 2rem;
   }
 
@@ -498,23 +499,24 @@ label input {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: static;
-}
+  }
 
   .titulo_esquerda_sss {
-    padding-left: 2.5rem;    /*verifivcar*/
+    padding-left: 2.5rem; /*verifivcar*/
   }
+}
 
 @media only screen and (min-width: 1760px) {
   .titulos {
     padding-top: 15rem;
   }
 
-    .subtitulo {
-    left: 32.7%;
+  .subtitulo {
+    left: 27%;
   }
 
-    .titulo2_esquerda {
-    padding-left: 10.8rem
+  .titulo2_esquerda {
+    padding-left: 7rem;
   }
 
   ul li {
@@ -522,12 +524,12 @@ label input {
     margin-left: 0.5%;
   }
 
-    .produto2_ul li {
+  .produto2_ul li {
     line-height: 2.2rem;
   }
 
-    .produto2_ul {
-    margin-left: 20%;
+  .produto2_ul {
+    margin-left: 11%;
     line-height: 2.5rem;
   }
 }
@@ -537,15 +539,15 @@ label input {
     padding-top: 15rem;
   }
 
-    .subtitulo {
-    left: 32.2%;
+  .subtitulo {
+    left: 28.8%;
   }
 
   .titulo2_esquerda {
-    padding-left: 11.7rem;
+    padding-left: 9rem;
   }
 
-    .produto2_ul li {
+  .produto2_ul li {
     line-height: 1.65rem;
   }
 
@@ -557,30 +559,34 @@ label input {
     line-height: 2.5rem;
     margin-left: 0.8%;
   }
+
+  .produto2_ul {
+    margin-left: 14.5%;
+  }
 }
 
-  @media only screen and (min-width: 2200px) {
-    .titulos {
-      padding-top: 22rem;
-    }
-
-      .produto2_ul {
-      padding-top: 3rem;
-      }
-    
-      .subtitulo {
-      left: 31.2%;
-    }
-
-      .titulo2_esquerda {
-        margin-left: 20%;
-      }
-
-      .imagem_negocios {
-      margin-top: -8%; 
-    }
-
-    ul li {
-      line-height: 3rem;
-    }
+@media only screen and (min-width: 2200px) {
+  .titulos {
+    padding-top: 22rem;
   }
+
+  .produto2_ul {
+    padding-top: 3rem;
+  }
+
+  .subtitulo {
+    left: 31.2%;
+  }
+
+  .titulo2_esquerda {
+    margin-left: 20%;
+  }
+
+  .imagem_negocios {
+    margin-top: -8%;
+  }
+
+  ul li {
+    line-height: 3rem;
+  }
+}
