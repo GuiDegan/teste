@@ -17,7 +17,7 @@ body {
 .titulo1_esquerda {
   font-size: 53px;
   margin: 0;
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 .peso {
@@ -473,6 +473,10 @@ label input {
     margin-left: 0.5%;
   }
 
+  .titulo1_esquerda {
+    padding-left: 1.7rem;
+  }
+
   .titulo2_esquerda {
     padding-left: 6rem;
   }
@@ -541,6 +545,10 @@ label input {
 
   .subtitulo {
     left: 28.8%;
+  }
+
+  .titulo1_esquerda {
+    padding-left: 2rem;
   }
 
   .titulo2_esquerda {
