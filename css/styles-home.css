@@ -41,7 +41,7 @@ body {
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(../LINA_OFICIAL-01.png);
+  background-image: url(LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@ body {
 
 /*-----------------------SOMOS e TECNOLOGIA----------------*/
 .somos {
-  padding-top: 8rem;
+  padding-top: 11rem;
 }
 
 .paragrafo {
@@ -608,7 +608,7 @@ footer a:hover {
   }
 
   .titulo2_esquerda {
-    font-size: clamp(5rem, 4.5vw, 5.15vw);
+    font-size: clamp(4.5rem, 4.5vw, 5.15vw);
     padding-left: 2rem;
   }
 
