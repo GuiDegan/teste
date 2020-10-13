@@ -449,6 +449,7 @@ footer a:hover {
   font-size: clamp(1rem, 5vw, 5vw);
   margin-left: 35%;
   font-weight: 100;
+  padding-left: 0rem;
 }
 
 .teste2 {
@@ -458,6 +459,7 @@ footer a:hover {
   margin-left: 35%;
   font-weight: 400;
   padding-bottom: 2rem;
+  padding-left: 0rem;
 }
 
 .espacamento {
