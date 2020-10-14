@@ -608,8 +608,8 @@ footer a:hover {
   }
 
   .titulo2_esquerda {
-    font-size: clamp(4.5rem, 4.5vw, 5.15vw);
     padding-left: 2rem;
+    font-size: 19vw;
   }
 
   .paragrafo {
@@ -804,17 +804,16 @@ footer a:hover {
   }
 
   .modal-content {
-    overflow-y: hidden;
     width: 100vw;
-    height: 89vh;
+    height: 100%;
   }
 
   .modal-tecnolgia-m {
-    height: 105vh;
+    height: 100%;
   }
 
   .modal-dialog {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
   .modal-body {
