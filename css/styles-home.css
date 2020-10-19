@@ -2,30 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: MyriadPro;
-  font-weight: 100;
-  src: url(../MyriadPro-Regular.otf);
-}
-
-@font-face {
-  font-family: Gilroy;
-  font-weight: 200;
-  src: url(../Gilroy-Regular.otf)
-    format("opentype");
-}
-
-@font-face {
-  font-family: Gilroy;
-  font-weight: 300;
-  src: url(../Gilroy-SemiBold.otf)
-    format("opentype");
-}
-
-body {
-  line-height: 2;
-}
-
 .conteudo {
   background-color: #dadada;
   position: sticky;
@@ -37,11 +13,35 @@ body {
   max-width: 73.333333%;
   margin-right: 16.5%;
 }
+/*------------------------------------------------------------FONTES--------------------------------------------------------*/
+@font-face {
+  font-family: MyriadPro;
+  font-weight: 100;
+  src: url(../_Fonts/_texto/MyriadPro-Regular.otf);
+}
 
+@font-face {
+  font-family: Gilroy;
+  font-weight: 200;
+  src: url(../_Fonts/_titulos/RadomirTinkov-Gilroy-Regular.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 300;
+  src: url(../_Fonts/_titulos/RadomirTinkov-Gilroy-SemiBold.otf)
+    format("opentype");
+}
+
+body {
+  line-height: 2;
+}
+/*------------------------------------------------------------NAVBAR--------------------------------------------------------*/
 .logo_lina {
   min-width: 200px;
   height: 11vh;
-  background-image: url(../LINA_OFICIAL-01.png);
+  background-image: url(../LINA_Elements/_aMarca/_Arquivos_Fechados/LINA_OFICIAL-01.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body {
   border: none;
   outline: none;
 }
-/*----------------------------SIDEBAR-----------------------*/
+/*------------------------------------------------------------SIDEBAR--------------------------------------------------------*/
 .col-sm-1 {
   z-index: -1;
   max-width: 6.5%;
@@ -105,8 +105,7 @@ body {
   background-color: #00cdc2;
   min-width: 5vw;
 }
-
-/*-----------------------SOMOS e TECNOLOGIA----------------*/
+/*------------------------------------------------------------SOMOS E TECNOLOGIA--------------------------------------------------------*/
 .somos {
   padding-top: 11rem;
 }
@@ -115,7 +114,6 @@ body {
   text-align: right;
   padding: 1rem 5.5rem 0rem 0rem;
   line-height: 1.4;
-  /*font-size: 16px;*/
   z-index: 4;
   font-family: MyriadPro;
   font-weight: 200;
@@ -165,8 +163,6 @@ body {
 }
 
 .imagem {
-  /*Config aplicada tbm para TECNOLOGIA*/
-  /*margin: 0% -8% 0% 0%;*/
   height: auto;
   width: auto;
   z-index: -1;
@@ -301,13 +297,11 @@ img.col-sm-7.imagem {
   float: right;
   font-size: 24px;
 }
-
-/*-----------------------------TECNOLOGIA----------------------*/
+/*------------------------------------------------------------TECNOLOGIA-----------------------------------------------------*/
 .tecnologia {
   padding-top: 10rem;
 }
-
-/*-----------------------------LIQUIDAÇÃO----------------------*/
+/*------------------------------------------------------------LIQUIDAÇÃO-----------------------------------------------------*/
 .liquidacao {
   padding-top: 10rem;
 }
@@ -385,8 +379,7 @@ img.col-sm-7.imagem {
   position: relative;
   margin-top: 12%;
 }
-
-/*------------------------------BOTÕES------------------------*/
+/*-------------------------------------------------------------BOTÕES-------------------------------------------------------*/
 .botoes-acessos {
   padding-top: 6rem;
   padding-bottom: 9rem;
@@ -442,8 +435,7 @@ footer i {
 footer a:hover {
   color: white;
 }
-
-/*--------------------------CONFIG. GLOBAIS--------------------*/
+/*-----------------------------------------------------------CONFIG. GLOBAIS-------------------------------------------------*/
 .form-group {
   margin-top: 10%;
 }
@@ -522,8 +514,7 @@ footer a:hover {
 .hide-d {
   display: none;
 }
-
-/*------------------------------MOBILE-----------------------*/
+/*----------------------------------------------------------------MOBILE-----------------------------------------------------*/
 @media only screen and (max-width: 768px) {
   html,
   body {
@@ -613,8 +604,8 @@ footer a:hover {
   }
 
   .titulo2_esquerda {
-    padding-left: 2rem;
     font-size: 19vw;
+    padding-left: 2rem;
   }
 
   .paragrafo {
@@ -693,7 +684,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 37vh;
-    background-image: url("../Home_Lina_2(mobile).png");
+    background-image: url("/LINA_Elements/_imagens/Home_Lina_1(mobile).png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 11%;
@@ -704,7 +695,7 @@ footer a:hover {
     margin: 0;
     height: 37vh;
     background-position: center;
-    background-image: url("../Home_Lina_1(mobile).png");
+    background-image: url("/LINA_Elements/_imagens/Home_Lina_2(mobile).png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -713,7 +704,7 @@ footer a:hover {
     width: 100vw;
     margin: 0;
     height: 37vh;
-    background-image: url("../Home_Lina_3(mobile).png");
+    background-image: url("/LINA_Elements/_imagens/Home_Lina_3(mobile).png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -5%;
@@ -744,10 +735,6 @@ footer a:hover {
     text-align: left;
     padding-left: 2.8rem !important;
   }
-
-  /*.liquidacao button {
-    margin-left: 50%;
-  }*/
 
   .tecnologia {
     padding-top: 2rem;
@@ -843,7 +830,7 @@ footer a:hover {
     padding: 0;
   }
 }
-
+/*----------------------------------------------------------------TELAS-----------------------------------------------------*/
 @media only screen and (min-width: 1570px) {
   .linhavertical {
     margin: -19% -20% 0% 0%;
@@ -1219,71 +1206,6 @@ footer a:hover {
 
   .float-left {
     margin-left: 64.2%;
-    margin-bottom: 13%;
-  }
-}
-
-@media only screen and (min-width: 2100px) {
-  .linhavertical {
-    margin: -27% -20% 0% 0%;
-    height: 31vh;
-    border-right: 0.5px solid #ffffff;
-    animation-duration: 3s;
-    -webkit-animation-name: slidelinhavertical;
-    -webkit-animation-iteration-count: linear;
-    -webkit-animation-delay: 0s;
-  }
-
-  @-webkit-keyframes slidelinhavertical {
-    from {
-      margin-top: -27%;
-      opacity: 1;
-      height: 1vh;
-    }
-
-    to {
-      margin-top: -27%;
-      opacity: 1;
-      height: 31vh;
-    }
-  }
-
-  .linhaverticaltech {
-    margin: -47% -20% 0% 0%;
-    height: 43vh;
-    -webkit-animation-name: slidelinhaverticaltecnologia;
-    -webkit-animation-iteration-count: linear;
-    -webkit-animation-delay: 0s;
-  }
-
-  @-webkit-keyframes slidelinhaverticaltecnologia {
-    from {
-      margin-top: -47%;
-      opacity: 1;
-      height: 1vh;
-    }
-
-    to {
-      margin-top: -47%;
-      opacity: 1;
-      height: 43vh;
-    }
-  }
-
-  .linhaverticalliquidacao {
-    animation-duration: 3s;
-    animation-name: slidelinhaverticalliquidacao;
-    animation-delay: 0s;
-    margin-top: -10.5%;
-    height: 24vh;
-  }
-
-  #botao-liquidacao {
-    margin: 0% 0% 0% 13%;
-  }
-
-  .float-left {
-    margin-left: 63%;
     margin-bottom: 13%;
   }
 }
