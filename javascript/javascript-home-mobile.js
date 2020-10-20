@@ -1,3 +1,4 @@
+/*----------------------------ANIMAÇÃO NAVBAR-----------------------*/
 const navbarButtonToggle = () => {
   var navbarToggler = document.querySelector(".navbar-toggler");
   var iconHamburger = document.querySelector(".navbar-toggler-icon");
