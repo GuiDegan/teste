@@ -18,6 +18,7 @@ html {
   font-family: MyriadPro;
   font-weight: 100;
   src: url(../_Fonts/_texto/MyriadPro-Regular.otf);
+  font-display: swap;
 }
 
 @font-face {
@@ -25,6 +26,7 @@ html {
   font-weight: 200;
   src: url(../_Fonts/_titulos/RadomirTinkov-Gilroy-Regular.otf)
     format("opentype");
+  font-display: swap;
 }
 
 @font-face {
@@ -32,6 +34,7 @@ html {
   font-weight: 300;
   src: url(../_Fonts/_titulos/RadomirTinkov-Gilroy-SemiBold.otf)
     format("opentype");
+  font-display: swap;
 }
 
 body {
@@ -121,6 +124,10 @@ body {
   font-size: clamp(0.3rem, 1vw, 2rem);
 }
 
+.paragrafo_alinhamento {
+  padding: 1rem 0rem 0rem 6rem;
+}
+
 .paragrafo_tec {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
@@ -140,6 +147,10 @@ body {
   background-color: #00cdc2;
   z-index: -2;
   margin: -10% 0% 0% -8%;
+}
+
+.retangulo_alinhamento {
+  margin-left: 8%;
 }
 
 .titulo1_esquerda {
@@ -830,7 +841,7 @@ footer a:hover {
     padding: 0;
   }
 }
-/*----------------------------------------------------------------TELAS-----------------------------------------------------*/
+/*-----------------------------------------------------------CONFIG. GLOBAIS-------------------------------------------------*/
 @media only screen and (min-width: 1570px) {
   .linhavertical {
     margin: -19% -20% 0% 0%;
