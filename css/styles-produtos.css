@@ -1,53 +1,41 @@
-/*------------------------------------------------------- TÍTULO -------------------------------------------------------*/
 html,
 body {
   overflow-x: hidden;
 }
-
 .conteudo {
   background-color: #44b9b7;
 }
-
 .titulos {
   padding-top: 8rem;
   padding-left: 5rem;
 }
-
 .titulo1_esquerda {
   font-size: 53px;
   margin: 0;
   padding-left: 1.5rem;
 }
-
 .peso {
   font-size: 57px;
   font-weight: 400;
 }
-/*------------------------------------------------------ PRODUTO1 ------------------------------------------------------*/
 .produto1 {
   padding-left: 5rem;
-
   margin-top: 6%;
 }
-
 .produto1_titulo2esquerda {
   padding-left: 3.5rem !important;
   padding-bottom: 1rem;
 }
-
 .subitulo_produto1 {
   padding-left: 3.5rem !important;
 }
-
 .row_prod1 {
   position: absolute;
 }
-
 .ul-prod1 {
   top: 40%;
   position: absolute;
 }
-
 .imagem_negocios {
   z-index: 1;
   position: relative;
@@ -57,67 +45,54 @@ body {
   animation-name: slidein;
   animation-iteration-count: static;
 }
-
 @keyframes slidein {
   from {
     margin-left: 87%;
     width: 300%;
   }
-
   to {
     margin-left: 78%;
     width: 100%;
   }
 }
-
 h2 {
   line-height: 0.9;
 }
-/*------------------------------------------------------ PRODUTO2 ------------------------------------------------------*/
 .produto2 {
   padding-left: 5rem;
   padding-top: 5rem;
 }
-
 .linhaverde {
   background-color: #00cdc2 !important;
 }
-
 .verde {
   background-color: #00908c !important;
-  color: #ffffff;
+  color: #fff;
 }
-
 .justify-content-center {
   padding-left: 3.3rem;
 }
-
 .produto2_titulo {
   left: 18%;
 }
-
 .subtitulo {
   left: 22%;
   padding-left: 5rem;
 }
-
 .produto2_ul {
   padding-top: 1rem;
 }
-
 .produto2_ul li {
   line-height: 1.65rem;
+  color: #00cdc2;
 }
-
 .js .anim-liquidacao {
   opacity: 0;
 }
-
 .js .anim-liquidacao-init {
   opacity: 1;
   animation-name: slideinliq;
 }
-
 .imagem_bass {
   position: absolute;
   z-index: 1;
@@ -128,48 +103,38 @@ h2 {
   animation-duration: 3s;
   animation-iteration-count: static;
 }
-
 @keyframes slideinliq {
   from {
     left: 4%;
     width: 100%;
   }
-
   to {
     left: 13%;
     width: 100%;
   }
 }
-/*------------------------------------------------------ PRODUTO3 ------------------------------------------------------*/
 .produto3 {
   padding-left: 5rem;
-
   padding-top: 5rem;
 }
-
 .produto3_uldesktop {
   margin-top: 5%;
 }
-
 .row_prod3 {
   position: absolute;
 }
-
 .titulo_esquerda_sss {
   padding-left: 2.5rem !important;
 }
-
 .js .anim-somos_tec {
   opacity: 0;
 }
-
 .js .anim-somos_tec-init {
   opacity: 1;
   -webkit-animation-duration: 6s;
   -webkit-animation-name: slideinsomos_tec;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0;
 }
-
 .imagem_sss {
   z-index: 1;
   position: relative;
@@ -178,44 +143,37 @@ h2 {
   animation-duration: 3s;
   animation-iteration-count: static;
 }
-
 @keyframes slideinsomos_tec {
   from {
     left: 18%;
     width: 300%;
   }
-
   to {
     left: 4%;
     width: 100%;
   }
 }
-/*------------------------------------------------------ GLOBAL ------------------------------------------------------*/
 .produto_geral {
   height: 78%;
   background-color: #dadada;
-  border-radius: 0px 0px 0px 60px;
+  border-radius: 0 0 0 60px;
   width: 58vw;
   margin-left: 5%;
 }
-
 .produto_linhabranca {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 58vw;
   margin-left: 5%;
   margin-top: -2%;
-  color: #ffffff;
+  color: #fff;
   min-height: 1.5vw;
 }
-
 .produtos_dimensoes {
   height: 60vh;
 }
-
 .produtos_titulo {
   padding-top: 1rem;
 }
-
 .titulo2_esquerda {
   font-size: 30px;
   color: #00908c;
@@ -223,154 +181,124 @@ h2 {
   padding-left: 2.8rem;
   padding-bottom: 1rem;
 }
-
 .produtos_subtitulo {
-  color: #000000;
+  color: #000;
   font-weight: 500;
   padding-left: 3.5rem;
   font-size: clamp(0rem, 1.05vw, 5rem);
 }
-
 ul {
   padding-left: 3.7rem;
 }
-
 ul li {
   line-height: 1.9rem;
   font-weight: 500;
   font-size: clamp(0rem, 1.05vw, 5rem);
   color: #00908c;
 }
-
 ul li span {
-  color: #000000;
+  color: #000;
 }
-/*------------------------------------------------------ FAÇA PARTE ------------------------------------------------------*/
 .facaparte {
   padding-top: 6.5rem;
 }
-
 .facaparte_texto {
   font-size: 44px;
   font-family: Gilroy;
   font-weight: 100;
   margin: 0;
 }
-
 .facaparte_texto2 {
   margin-top: -2%;
   font-size: 60px;
   font-family: Gilroy;
 }
-
 label input {
-  border-radius: 0px !important;
+  border-radius: 0 !important;
   max-width: 93.5%;
 }
-
 .form-control {
   height: 9vh;
   width: 41vw;
 }
-
 .botoes-acessos {
   padding-bottom: 6rem;
 }
-
 .btn-docs {
   background-color: #006566;
   right: 5%;
 }
-/*-------------------------------------------------------- MOBILE --------------------------------------------------------*/
-
 @media only screen and (max-width: 768px) {
   html,
   body {
     overflow-x: hidden;
   }
-
   .titulos {
     padding-left: 1rem;
   }
-
   .produto1_titulo2esquerda {
     padding-left: 3.1rem !important;
   }
-
   .titulo1_esquerda {
-    font-size: 44px !important ;
+    font-size: 44px !important;
     margin: 0;
-    padding-top: 0rem;
+    padding-top: 0;
   }
-
   .produtos_dimensoes {
     height: 100% !important;
   }
-
   .produto1_dimensoes {
     height: 60vh !important;
   }
-
   .produto1 {
     padding-left: 1rem;
   }
-
   .facaparte {
     margin-top: 30%;
   }
-
   .titulo2_esquerda {
     font-size: 30px !important;
     color: #00908c;
     line-height: 0.9;
-    /*padding-left: 3.5rem !important;*/
     padding-top: 2rem;
     padding-right: 9rem;
   }
-
   .produtos_titulo {
     padding: 0;
   }
-
   ul li {
     line-height: 1.9rem;
     font-weight: 600;
     font-size: clamp(1rem, 1.05vw, 5rem);
     color: #00908c;
   }
-
   .ul-prod1 {
     top: 55%;
   }
-
   .produto_linhabranca {
-    background-color: #ffffff;
+    background-color: #fff;
     width: 100vw !important;
     height: 3vh;
     margin-top: 15%;
-    color: #ffffff;
+    color: #fff;
     padding: 0;
     margin-left: -4%;
   }
-
   .produto2_titulo {
     left: 25%;
   }
-
   .produto_geral {
     background-color: #dadada;
-    border-radius: 0px 0px 0px 60px;
+    border-radius: 0 0 0 60px;
     width: 100vw;
     height: 110%;
     margin-left: -4%;
   }
-
   .produto_geral3 {
     background-color: #dadada;
-    border-radius: 0px 0px 0px 60px;
+    border-radius: 0 0 0 60px;
     width: 99.5vw;
   }
-
   .imagem_negocios {
     position: absolute;
     z-index: 1;
@@ -378,29 +306,24 @@ label input {
     height: 45%;
     margin-top: -44%;
     left: -23%;
-    animation-duration: 0s;
+    animation-duration: 0;
     padding: 0;
   }
-
   ul {
     padding-left: 3.3rem;
   }
-
   .produto2 {
     padding-left: 1rem;
     padding-top: 10rem;
   }
-
   .produto2_ul {
     padding-top: 3rem;
     padding-left: 0;
   }
-
   .produto3_ul {
     padding-left: 3.5rem;
     padding-right: 15px;
   }
-
   .imagem_bass {
     position: absolute;
     z-index: 1;
@@ -409,91 +332,72 @@ label input {
     height: 10%;
     width: auto;
     margin-top: 5rem;
-    animation-duration: 0s !important;
+    animation-duration: 0 !important;
   }
-
   .titulo_esquerda_sss {
     padding-left: 2.2rem !important;
   }
-
   .imagem_sss {
     margin-top: 15%;
-    animation-duration: 0s !important;
+    animation-duration: 0 !important;
   }
-
   .produto3 {
     padding-left: 1rem;
-
     padding-top: 10rem;
   }
-
   .facaparte_texto {
     text-align: center;
   }
-
   .facaparte_texto2 {
     text-align: center;
   }
-
   label input {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     max-width: 100%;
     margin: 0;
   }
-
   .form-control {
     height: 100%;
     width: 90%;
-    margin: 0%;
+    margin: 0;
     margin-left: 5%;
     margin-top: 5%;
   }
-
   .hide-m {
     display: none;
   }
-
   .hide-d {
     display: block;
   }
-
   .botoes-acessos {
     padding-right: 2rem;
   }
 }
-
 @media only screen and (min-width: 1680px) {
   .titulos {
     padding-top: 12rem;
   }
-
   ul li {
     line-height: 1.9rem;
     margin-left: 0.5%;
   }
-
   .titulo1_esquerda {
     padding-left: 1.7rem;
   }
-
   .titulo2_esquerda {
     padding-left: 6rem;
   }
-
   .subtitulo {
     left: 26%;
   }
-
   .produto2_ul {
     padding-top: 2rem;
     margin-left: 8.5%;
     line-height: 2.5rem;
   }
-
   .produto2_ul li {
     line-height: 2rem;
   }
-
   .imagem_negocios {
     z-index: 1;
     position: relative;
@@ -503,96 +407,73 @@ label input {
     animation-name: slidein;
     animation-iteration-count: static;
   }
-
   .titulo_esquerda_sss {
-    padding-left: 2.5rem; /*verifivcar*/
+    padding-left: 2.5rem;
   }
 }
-
 @media only screen and (min-width: 1760px) {
   .titulos {
     padding-top: 15rem;
   }
-
   .subtitulo {
     left: 27%;
   }
-
   .titulo2_esquerda {
     padding-left: 7rem;
   }
-
   ul li {
     line-height: 2rem;
     margin-left: 0.5%;
   }
-
   .produto2_ul li {
     line-height: 2.2rem;
   }
-
   .produto2_ul {
     margin-left: 11%;
     line-height: 2.5rem;
   }
 }
-
 @media only screen and (min-width: 1920px) {
   .titulos {
     padding-top: 15rem;
   }
-
   .subtitulo {
     left: 28.8%;
   }
-
   .titulo1_esquerda {
     padding-left: 2rem;
   }
-
   .titulo2_esquerda {
     padding-left: 9rem;
   }
-
   .produto2_ul li {
     line-height: 1.65rem;
-  }
-
-  .produto2_ul li {
     line-height: 2.6rem;
   }
-
   ul li {
     line-height: 2.5rem;
     margin-left: 0.8%;
   }
-
   .produto2_ul {
     margin-left: 14.5%;
   }
 }
-
 @media only screen and (min-width: 2200px) {
   .titulos {
     padding-top: 22rem;
   }
-
   .produto2_ul {
     padding-top: 3rem;
   }
-
   .subtitulo {
     left: 31.2%;
   }
-
   .titulo2_esquerda {
     margin-left: 20%;
   }
-
   .imagem_negocios {
     margin-top: -8%;
   }
-
   ul li {
     line-height: 3rem;
   }
